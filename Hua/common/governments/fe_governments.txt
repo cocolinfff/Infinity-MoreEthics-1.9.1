@@ -1,0 +1,234 @@
+###############
+#   不可游玩
+###############
+# Stagnant Ascendancy
+gov_stagnant_ascendancy = {
+	ruler_title = RT_EMPEROR
+	ruler_title_female = RT_EMPRESS
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_lethargic_leadership
+		has_valid_civic = civic_empire_in_decline
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Awakened Ascendancy
+gov_awakened_ascendancy = {
+	ruler_title = RT_EMPEROR
+	ruler_title_female = RT_EMPRESS
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_revanchist_fervor
+		has_valid_civic = civic_ancient_caches_of_technology
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Custodian Matrix
+gov_custodian_matrix = {
+	ruler_title = RT_CUSTODIAN
+	ruler_title_female = RT_CUSTODIAN
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_machine_remnants
+		has_valid_civic = civic_custodian_directives
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Berserking Custodian Matrix
+gov_berserker_machine = {
+	ruler_title = RT_CUSTODIAN
+	ruler_title_female = RT_CUSTODIAN
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_awakened_machine
+		has_valid_civic = civic_malfunctioning_custodian
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Awakened Custodian matrix
+gov_galactic_defense_unit = {
+	ruler_title = RT_ERROR
+	ruler_title_female = RT_ERROR
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_awakened_machine
+		has_valid_civic = civic_final_defense_protocols
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Tribal Society
+gov_tribal_society = {
+	ruler_title = RT_KING
+	ruler_title_female = RT_QUEEN
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_secret_of_fire
+		has_valid_civic = civic_the_wheel
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Feudal Realms
+gov_feudal_realms = {
+	ruler_title = RT_KING
+	ruler_title_female = RT_QUEEN
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_landed_nobility
+		has_valid_civic = civic_flat_world_theory
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Fragmented Nation States
+gov_fragmented_nation_states = {
+	ruler_title = RT_SECRETARY
+	ruler_title_female = RT_SECRETARY_FEMALE
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_increasing_urbanization
+		has_valid_civic = civic_atmospheric_pollution
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Curator Enclave
+gov_curator_enclave = {
+	ruler_title = RT_HIGH_CURATOR
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_ancient_preservers
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Trader Enclave
+gov_trader_enclave = {
+	ruler_title = RT_HIGH_TRADER
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_trading_conglomerate
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Artist Enclave
+gov_artist_enclave = {
+	ruler_title = RT_HIGH_ARTIST
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_artist_collective
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Marauder Clans
+gov_marauder_clans = {
+	ruler_title = RT_RELUCTANT_EMISSARY
+	should_force_rename = yes
+	possible = {
+		has_civic = civic_anarcho_tribalism
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Marauder Khanate
+gov_marauder_khanate = {
+	ruler_title = RT_GREAT_KHAN
+	should_force_rename = yes
+	possible = {
+		has_civic = civic_great_khans_vision
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Diadochi
+gov_diadochi = {
+	ruler_title = RT_KHAN
+	should_force_rename = yes
+	possible = {
+		has_civic = civic_diadochi
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Successor Khanate
+gov_successor_khanate = {
+	ruler_title = RT_KHAN
+	should_force_rename = yes
+	possible = {
+		has_civic = civic_great_khans_legacy
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# Military Order (Sentinels)
+gov_military_order = {
+	ruler_title = RT_GRAND_MASTER
+	should_force_rename = yes
+	possible = {
+		has_valid_civic = civic_military_order
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# AI Crisis
+gov_ancient_machine_intelligence = {
+	ruler_title = RT_CORE_DIRECTIVE
+	should_force_rename = yes
+	possible = {
+		has_civic = civic_ancient_machine_intelligence
+	}
+	weight = {
+		base = 100000
+	}
+}
+
+# fallback
+gov_fallback = {
+	ruler_title = RT_RULER
+	should_force_rename = yes
+	possible = {
+		always = yes
+	}
+	weight = {
+		base = 1
+	}
+}

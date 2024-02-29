@@ -1,0 +1,58 @@
+# 人民委员会
+gov_peoples_commissariat = {
+	ruler_title = RT_LABOUR
+	ruler_title_female = RT_LABOUR
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 100
+			leader_class = governor
+		}
+	}
+
+	possible = {
+		has_authority = auth_oligarchic
+		has_ethic = ethic_egalitarian
+	}
+	
+    should_force_rename = yes
+
+	weight = {
+		base = 999999
+	}
+}
+
+#民主集中制
+gov_collective_democracy = {
+	ruler_title = RT_PEOPLES_REPRESENTATIVE
+	ruler_title_female = RT_PEOPLES_REPRESENTATIVE
+	possible = {
+		has_authority = auth_democratic
+		has_valid_civic = civic_socialistic
+	}
+	should_force_rename = yes
+	weight = {
+		base = 999999
+	}
+}
+
+# 平等共同体
+gov_communal_parity = {
+	ruler_title = RT_PEOPLES_REPRESENTATIVE
+	ruler_title_female = RT_PEOPLES_REPRESENTATIVE
+
+	possible = {
+		has_authority = auth_democratic
+		has_valid_civic = civic_shared_burden
+	}
+	
+    should_force_rename = yes
+
+	weight = {
+		base = 999999
+	}
+}

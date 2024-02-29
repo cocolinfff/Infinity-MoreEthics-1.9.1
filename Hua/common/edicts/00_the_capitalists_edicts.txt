@@ -1,0 +1,368 @@
+extension_of_working_hours_act = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	edict_cap_usage = 1
+
+	resources = {
+		category = edicts
+		cost = {
+			trigger = {
+				NOT = { has_edict = extension_of_working_hours_act }			
+			}
+			influence = 200
+		}
+		cost = {
+			trigger = {
+				has_edict = extension_of_working_hours_act
+			}
+			influence = 150
+		}
+	}
+
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.25
+		biological_pop_happiness = -0.25
+		lithoid_pop_happiness = -0.15
+	}
+
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 1
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 3
+			NOR = { 
+				has_valid_civic = civic_idealistic_foundation
+				has_authority = auth_corporate 
+			}
+		}
+		modifier = {
+			factor = 5
+			has_authority = auth_corporate
+		}
+	}
+}
+
+free_trade_act = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+	edict_cap_usage = 1
+	resources = {
+		category = edicts
+		cost = {
+			trigger = {
+				NOT = { has_edict = free_trade_act }
+			}
+			influence = 200
+		}
+		cost = {
+			trigger = {
+				has_edict = free_trade_act 
+			}
+			influence = 150
+		}
+
+	}
+	modifier = {
+		trade_value_mult = 1.0
+		country_trade_attractiveness = 0.25
+		planet_crime_add = 50
+	}
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 3
+			NOR = { 
+				has_valid_civic = civic_idealistic_foundation
+				has_authority = auth_corporate 
+			}
+		}
+		modifier = {
+			factor = 5
+			has_authority = auth_corporate
+		}
+	}
+}
+
+business_competition_act = {
+	length = -1
+	icon = "GFX_edict_type_policy"
+	edict_cap_usage = 1
+	resources = {
+		category = edicts
+		cost = {
+			trigger = {
+				NOT = { has_edict = business_competition_act }
+			}
+			influence = 200
+		}
+		cost = {
+			trigger = {
+				has_edict = business_competition_act 
+			}
+			influence = 150
+		}
+
+	}
+	modifier = {
+		trade_value_mult = 0.5
+		all_technology_research_speed = 0.2
+		planet_stability_add = -15
+	}
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 3
+			NOR = { 
+				has_valid_civic = civic_idealistic_foundation
+				has_authority = auth_corporate 
+			}
+		}
+		modifier = {
+			factor = 5
+			has_authority = auth_corporate
+		}
+	}
+}
+
+the_flexible_seniority_act = {
+	length = -1
+	icon = "GFX_edict_type_policy"
+	edict_cap_usage = 1
+	resources = {
+		category = edicts
+		cost = {
+			trigger = {
+				NOT = { has_edict = the_flexible_seniority_act }
+			}
+			influence = 200
+		}
+		cost = {
+			trigger = {
+				has_edict = the_flexible_seniority_act 
+			}
+			influence = 150
+		}
+
+	}
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.25
+		planet_jobs_specialist_produces_mult = 0.15
+		leader_age = -10
+		pop_growth_speed_reduction = 0.15
+	}
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 3
+			NOR = { 
+				has_valid_civic = civic_idealistic_foundation
+				has_authority = auth_corporate 
+			}
+		}
+		modifier = {
+			factor = 5
+			has_authority = auth_corporate
+		}
+	}
+}
+
+indefinite_patent_act = {
+	length = -1
+	icon = "GFX_edict_type_policy"
+	edict_cap_usage = 1
+	resources = {
+		category = edicts
+		cost = {
+			trigger = {
+				NOT = { has_edict = indefinite_patent_act }
+			}
+			influence = 300
+		}
+		cost = {
+			trigger = {
+				has_edict = indefinite_patent_act 
+			}
+			influence = 300
+		}
+
+	}
+	modifier = {
+		planet_jobs_specialist_produces_mult = 0.25
+		country_leader_pool_size = -2
+	}
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 1
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 3
+			NOR = { 
+				has_valid_civic = civic_idealistic_foundation
+				has_authority = auth_corporate 
+			}
+		}
+		modifier = {
+			factor = 5
+			has_authority = auth_corporate
+		}
+	}
+}
+
+blessings = {
+	length = -1
+	icon = "GFX_edict_type_policy"
+	edict_cap_usage = 1
+	resources = {
+		category = edicts
+		cost = {
+			trigger = {
+				NOT = { has_edict = blessings }
+			}
+			influence = 500
+		}
+		cost = {
+			trigger = {
+				has_edict = blessings 
+			}
+			influence = 500
+		}
+
+	}
+	modifier = {
+		planet_jobs_worker_produces_mult = 0.25
+		planet_jobs_specialist_produces_mult = 0.15
+		pop_cat_ruler_happiness = 0.50
+		pop_cat_ruler_political_power = 5.00
+	}
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 8
+			NOT = { has_valid_civic = civic_merchant_guilds }
+		}
+		modifier = {
+			factor = 5
+			has_valid_civic = civic_merchant_guilds
+		}
+	}
+}
+
+consumerist_propaganda = {
+	length = 3600
+	icon = "GFX_edict_type_time"
+	edict_cap_usage = 0
+	resources = {
+		category = campaigns
+		cost = {
+			trigger = {
+				NOT = { has_edict = consumerist_propaganda }
+			}
+			influence = 400
+		}
+		cost = {
+			trigger = {
+				has_edict = consumerist_propaganda 
+			}
+		}
+
+	}
+	modifier = {
+		trade_value_mult = 0.30
+		planet_culture_workers_produces_mult = 0.25
+		pop_citizen_happiness = 0.50
+		planet_stability_add = 15
+		planet_pops_consumer_goods_upkeep_mult = 0.30
+	}
+	potential = {
+		ethics = {
+			NOR = {
+				text = civic_tooltip_not_egalitarian
+				value = ethic_egalitarian
+				value = ethic_fanatic_egalitarian
+			}
+		}
+	}
+	ai_weight = {
+		modifier = {
+			factor = 0
+			has_valid_civic = civic_idealistic_foundation
+		}
+		modifier = {
+			factor = 5
+			NOR = { 
+				has_valid_civic = civic_idealistic_foundation
+				has_authority = auth_corporate 
+			}
+		}
+		modifier = {
+			factor = 7
+			has_authority = auth_corporate
+		}
+	}
+}

@@ -1,0 +1,109 @@
+# 人民委员会
+empire_name_parts_list = {
+	key = "peoples_commissariat"
+	parts = {
+		"人民联盟" = 6
+		"苏维埃联盟" = 6
+		"社会主义共和国" = 6
+		"人民委员会" = 6
+		"人民共和国" = 6
+		"联盟" = 4
+	}
+}
+
+# 平等共同体
+empire_name_parts_list = {
+	key = "communal_parity"
+	parts = {
+		"人民联盟" = 6
+		"联盟" = 6
+		"社会主义共和国联盟" = 6
+		"联合工团" = 6
+		"命运共同体" = 6
+		"人民共和国" = 4
+	}
+}
+
+
+# 人民委员会1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			OR = {
+				has_government = "gov_peoples_commissariat"
+				has_government = "gov_collective_democracy"
+			}
+			is_pirate = no
+			is_primitive = yes
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.1"
+	noun = "[This.Capital.GetName]"
+	prefix_format = "[This.Capital.GetName]<peoples_commissariat>"
+	# Empire of Earth
+}
+
+# 人民委员会2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			OR = {
+				has_government = "gov_peoples_commissariat"
+				has_government = "gov_collective_democracy"
+			}
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.2"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.Capital.GetName]<peoples_commissariat>"
+	# Empire of Earth
+}
+
+
+# 平等共同体1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_communal_parity"
+			is_pirate = no
+			is_primitive = yes
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.3"
+	noun = "[This.Capital.GetName]"
+	prefix_format = "[This.Capital.GetName]<communal_parity>"
+	# Empire of Earth
+}
+
+# 平等共同体2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_communal_parity"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.4"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "[This.Capital.GetName]<communal_parity>"
+	# Empire of Earth
+}

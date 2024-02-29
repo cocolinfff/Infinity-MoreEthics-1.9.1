@@ -1,0 +1,5 @@
+﻿l_english:
+ format.coa.1: "[This.Capital.System.GetName]<peoples_commissariat>"
+ format.coa.2: "[This.Capital.GetName]<peoples_commissariat>"
+ format.coa.3: "[This.Capital.System.GetName]<communal_parity>"
+ format.coa.4: "[This.Capital.GetName]<communal_parity>"

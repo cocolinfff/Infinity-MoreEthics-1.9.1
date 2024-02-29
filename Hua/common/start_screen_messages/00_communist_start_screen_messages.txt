@@ -1,0 +1,71 @@
+# 平等共同体
+part = {
+	location = 1
+	localization = "START_SCREEN_PART_TWO_COMMUNAL_PARITY"
+
+	trigger = {
+		has_government = gov_communal_parity
+		NOR = {
+			has_country_flag = custom_start_screen
+			has_origin = origin_post_apocalyptic
+			has_origin = origin_life_seeded
+		}
+	}
+}
+
+# 人民委员会
+part = {
+	location = 1
+	localization = "START_SCREEN_PART_TWO_PEOPLES_COMMISSARIAT"
+
+	trigger = {
+		has_government = gov_peoples_commissariat
+		NOR = {
+			has_country_flag = custom_start_screen
+			has_origin = origin_post_apocalyptic
+			has_origin = origin_life_seeded
+		}
+	}
+}
+
+### PRE-SCRIPTED
+
+# 地球社会主义联盟
+part = {
+	location = 0
+	localization = "START_SCREEN_ESU"
+	
+	trigger = {
+		    has_country_flag = human_1
+	}
+}	
+
+# 尤利西斯财团
+part = {
+	location = 0
+	localization = "START_SCREEN_ULYSSES"
+	
+	trigger = {
+		    has_country_flag = human_2
+	}
+}
+
+# 布洛葛合众国
+part = {
+	location = 0
+	localization = "START_SCREEN_BLORG"
+	
+	trigger = {
+		    has_country_flag = blorg
+	}
+}
+
+# “地球联合国”
+part = {
+	location = 0
+	localization = "START_SCREEN_UNE"
+	
+	trigger = {
+		    has_country_flag = human_x
+	}
+}

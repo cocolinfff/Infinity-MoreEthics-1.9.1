@@ -1,0 +1,150 @@
+# 人民战争
+country_edict = {
+	name = "peoples_war"
+	modifier = {
+		planet_army_build_cost_mult = -0.25
+		army_defense_morale_mult = 0.50
+		ship_speed_mult = 0.25
+		army_build_speed_mult = -0.25
+		ship_build_speed_mult = -0.25
+		ship_reparation_speed_mult = 0.25		
+		ship_home_territory_fire_rate_mult = 0.25
+		defensive_war_influence_gain_add = 1
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_valid_civic = civic_shared_burden
+		OR = {
+		    is_at_war = yes
+			has_policy_flag = continuous_revolution
+		}
+	}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+# 反腐倡廉
+country_edict = {
+	name = "anti_corruption"
+	modifier = {
+		country_resource_minerals_mult = 0.25
+		planet_building_upkeep_mult = -0.15
+		country_mining_station_cost_mult = -0.15
+		ship_upkeep_mult = -0.15
+		country_resource_energy_mult = -0.20
+		country_leader_pool_size = -1
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_valid_civic = civic_shared_burden
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# 计划生育
+country_edict = {
+	name = "family_planning"
+	modifier = {
+		tradition_cost_num_pops_mult = -0.33
+		pop_food_req_mult = -0.15
+		pop_consumer_goods_mult = -0.15
+		pop_growth_speed = -0.33
+	        country_leader_pool_size = -1
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_valid_civic = civic_shared_burden
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# 人民速度
+country_edict = {
+	name = "speed_of_people"
+	modifier = {
+		building_time_mult = -0.2
+		planet_clear_blocker_time_mult = -0.2
+		megastructure_build_speed_mult = 0.5
+	        country_resource_minerals_mult = -0.15
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_valid_civic = civic_shared_burden
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# 上山下乡
+country_edict = {
+	name = "to_the_countryside"
+	modifier = {
+		pop_migration_speed = 0.33
+		colony_start_num_pops_add = 1
+		planet_colony_development_speed_mult = 0.5
+		country_leader_pool_size = -1
+	        pop_happiness = -0.10
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_valid_civic = civic_shared_burden
+	}
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+# 文化大革命
+country_edict = {
+	name = "cultural_revolution"
+	modifier = {
+		pop_ethics_shift_speed_mult = 5.00
+		pop_ethic_egalitarian_attraction_mult = 1.00
+		country_resource_unity_mult = 1.0
+		country_society_tech_research_speed = 0.50
+		pop_resource_output = -0.10
+	        country_leader_pool_size = -2
+	}
+	
+	influence_cost = 2
+	
+	potential = {
+		has_technology = tech_ascension_theory
+		OR = {
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_people_of_the_iron_curtain
+		}
+		NOT ={ has_policy_flag = reform_and_opening_up }
+	}
+
+	ai_weight = {
+		modifier = {
+			factor = 3
+		}
+		modifier = {
+			factor = 6
+			has_policy_flag = continuous_revolution
+		}
+	}
+}
