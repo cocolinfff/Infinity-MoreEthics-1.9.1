@@ -1,7 +1,7 @@
 # 平等共同体
 part = {
 	location = 1
-	localization = "START_SCREEN_PART_TWO_COMMUNAL_PARITY"
+	localization = "START_SCREEN_PART_TWO_PEOPLES_COMMUNE"
 
 	trigger = {
 		has_government = gov_communal_parity
@@ -9,6 +9,24 @@ part = {
 			has_country_flag = custom_start_screen
 			has_origin = origin_post_apocalyptic
 			has_origin = origin_life_seeded
+		}
+	}
+}
+
+# 民主集中制
+part = {
+	location = 1
+	localization = "START_SCREEN_PART_TWO_COLLECTIVE_DEMOCRACY"
+	trigger = {
+		OR = {
+			has_government = gov_collective_democracy
+			has_government = gov_soviet_union
+		}
+		NOR = {
+			has_country_flag = custom_start_screen
+			has_origin = origin_post_apocalyptic
+			has_origin = origin_life_seeded
+			has_origin = origin_thirteen_monkeys
 		}
 	}
 }
@@ -28,6 +46,61 @@ part = {
 	}
 }
 
+# 集体寡头
+part = {
+	location = 1
+	localization = "START_SCREEN_PART_TWO_PEOPLES_COMMISSARIAT"
+	trigger = {
+		OR = {
+			has_government = gov_peoples_commissariat
+			has_government = gov_bur_collectivism
+		}
+		NOR = {
+			has_country_flag = custom_start_screen
+			has_origin = origin_post_apocalyptic
+			has_origin = origin_life_seeded
+			has_origin = origin_thirteen_monkeys
+		}
+	}
+}
+
+# 人民专政
+part = {
+	location = 1
+	localization = "START_SCREEN_PART_TWO_DICTATORSHIP_OF_THE_PEOPLE"
+	trigger = {
+		OR = {
+			has_government = gov_dictatorship_of_the_people
+			has_government = gov_parental_dictatorship
+		}
+		NOR = {
+			has_country_flag = custom_start_screen
+			has_origin = origin_post_apocalyptic
+			has_origin = origin_life_seeded
+			has_origin = origin_thirteen_monkeys
+		}
+	}
+}
+
+# 联合政府
+part = {
+	location = 1
+	localization = "START_SCREEN_PART_TWO_COALITION_GOVERNMENT"
+	trigger = {
+		OR = {
+			has_government = gov_community_of_common_destiny
+			has_government = gov_commonwealth_of_states
+			has_government = gov_united_empire
+		}
+		NOR = {
+			has_country_flag = custom_start_screen
+			has_origin = origin_post_apocalyptic
+			has_origin = origin_life_seeded
+			has_origin = origin_thirteen_monkeys
+		}
+	}
+}
+
 ### PRE-SCRIPTED
 
 # 地球社会主义联盟
@@ -36,7 +109,7 @@ part = {
 	localization = "START_SCREEN_ESU"
 	
 	trigger = {
-		    has_country_flag = human_1
+		has_country_flag = human_1
 	}
 }	
 
@@ -46,7 +119,7 @@ part = {
 	localization = "START_SCREEN_ULYSSES"
 	
 	trigger = {
-		    has_country_flag = human_2
+		has_country_flag = human_2
 	}
 }
 
@@ -56,7 +129,7 @@ part = {
 	localization = "START_SCREEN_BLORG"
 	
 	trigger = {
-		    has_country_flag = blorg
+		has_country_flag = blorg
 	}
 }
 
@@ -66,6 +139,6 @@ part = {
 	localization = "START_SCREEN_UNE"
 	
 	trigger = {
-		    has_country_flag = human_x
+		has_country_flag = human_x
 	}
 }

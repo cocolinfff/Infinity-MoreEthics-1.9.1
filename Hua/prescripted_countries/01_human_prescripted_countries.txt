@@ -99,7 +99,10 @@ blorg={
 	room = "personality_fanatic_befrienders_room"
 
 	authority = "auth_oligarchic"
-	civics = { "civic_beacon_of_liberty" "civic_coalition_government" "civic_diplomatic_corps"}
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_nationalistic_zeal"
+	}
 	government = gov_commonwealth_of_states
 	
 	weapon = "tech_lasers_1"
@@ -138,4 +141,6 @@ blorg={
 	}
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	ethic="ethic_capitalism"
 }

@@ -25,6 +25,7 @@ humanssoc = {
 	civics = { "civic_socialistic" "civic_idealistic_foundation" }
 	government = gov_collective_democracy
 	
+	ethic = "ethic_fanatic_socialism"
 	ethic = "ethic_materialist"
 	ethic = "ethic_fanatic_egalitarian"
 
@@ -98,6 +99,7 @@ humansulysses = {
 	civics = { "civic_corporate_dominion" "civic_slaver_guilds" }
 	government = gov_megacorporation
 	
+	ethic = "ethic_fanatic_capitalism"
 	ethic = ethic_authoritarian
 	ethic = ethic_xenophile
 	ethic = "ethic_militarist"
@@ -143,3 +145,4 @@ humansulysses = {
 		ruler_title = "PRESCRIPTED_ruler_title_humans3"
 		ruler_title_female = "PRESCRIPTED_ruler_title_humans3"
 	}
+}

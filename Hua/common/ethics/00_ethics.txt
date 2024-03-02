@@ -8,8 +8,6 @@ ethic_categories = {
 	spi = {}
 	
 	hive = {}
-
-	soc = {}
 }
 
 ethic_fanatic_authoritarian = {
@@ -1888,8 +1886,8 @@ ethic_fanatic_spiritualist = {
 	}	
 	
 	country_modifier = {
-		planet_unrest_mult = -0.3
 		pop_government_ethic_attraction = 0.3
+		tradition_cost_num_pops_mult = -0.2
 	}
 	
 	random_weight = {
@@ -1910,8 +1908,8 @@ ethic_spiritualist = {
 	}		
 	
 	country_modifier = {
-		planet_unrest_mult = -0.15
 		pop_government_ethic_attraction = 0.15
+		tradition_cost_num_pops_mult = -0.1
 	}
 	
 	random_weight = {
@@ -2431,7 +2429,7 @@ ethic_gestalt_consciousness = {
 		}
 	}
 
-	cost = 3
+	cost = 5
 	category = "hive"
 	category_value = 0
 	use_for_pops = no
@@ -2467,230 +2465,6 @@ ethic_gestalt_consciousness = {
 			host_has_dlc = "Synthetic Dawn Story Pack"
 			host_has_dlc = "Utopia"
 			NOT = { has_global_flag = game_started }
-		}
-	}
-}
-ethic_fanatic_socialism = {
-	cost = 2
-	category = "soc"
-	category_value = 0
-
-	use_for_pops = no
-	regular_variant = ethic_socialism
-
-	country_modifier = {
-		planet_utopian_jobs_produces_mult = 0.2
-		planet_shared_burden_jobs_produces_mult = 0.1
-		pop_job_trade_mult = -0.15
-	}
-
-	tags = {
-		ETHIC_SOCIALISM_UNITY
-		ETHIC_ALLOWS_SHARED_BURDEN
-		ETHIC_ALLOWS_WORKER_OWNERSHIP
-		PROHIBITS_DECENT
-	}
-
-	random_weight = {
-		value = 150
-	}
-}
-
-
-ethic_fanatic_capitalism = {
-	cost = 2
-	category = "soc"
-	category_value = 4
-
-	category_opposite = yes
-
-	regular_variant = ethic_capitalism
-
-	use_for_pops = no
-
-	tags = {
-		ETHIC_CAPITALISM_UNITY
-		ETHIC_ALLOWS_STRATIFIED_DECADENT
-		REDUCED_TRADE_OUTPUT_PENALTY_PLUS
-	}
-
-	country_modifier = {
-	}
-
-
-	random_weight = {
-		value = 150
-	}
-}
-ethic_capitalism = {
-	cost = 1
-	category = "soc"
-	category_value = 3
-
-	fanatic_variant = ethic_fanatic_capitalism
-
-	category_opposite = yes
-
-	tags = {
-		ETHIC_CAPITALISM_UNITY
-		ETHIC_ALLOWS_STRATIFIED_DECADENT
-		REDUCED_TRADE_OUTPUT_PENALTY
-	}
-
-	country_modifier = {
-		country_trade_fee = -0.05
-		trade_value_mult = 0.1
-		planet_pops_consumer_goods_upkeep_mult = 0.05
-	}
-
-
-	random_weight = {
-		value = 100
-	}
-
-	country_attraction = {
-		value = 1
-	}
-
-	# from = planet
-	pop_attraction = {
-		value = 1
-
-
-		modifier = {
-			factor = 0
-			has_trait = trait_hive_mind
-		}
-
-		modifier = {
-			factor = 1.7
-			has_trait = "trait_thrifty"
-		}
-
-		modifier = {
-			factor = 1.2
-			has_trait = "trait_charismatic"
-		}
-
-		modifier = {
-			factor = 1.3
-			has_trait = "trait_solitary"
-		}
-
-		modifier = {
-			factor = 0.75
-			has_trait = "trait_conservational"
-		}
-
-		modifier = {
-			factor = 1.2
-			has_trait = "trait_wasteful"
-		}
-
-		modifier = {
-			factor = 1.5
-			has_trait = "trait_talented"
-		}
-
-		modifier = {
-			factor = 1.25
-			has_trait = trait_quick_learners
-		}
-
-		modifier = {
-			factor = 0.5
-			OR = {
-				has_living_standard = { type = living_standard_utopian }
-				has_living_standard = { type = living_standard_good }
-				has_living_standard = { type = living_standard_shared_burden }
-			}
-		}
-	}
-}
-ethic_socialism = {
-	cost = 1
-	category = "soc"
-	category_value = 1
-
-	fanatic_variant = ethic_fanatic_socialism
-
-	country_modifier = {
-		planet_utopian_jobs_produces_mult = 0.1
-		planet_shared_burden_jobs_produces_mult = 0.05
-		pop_job_trade_mult = -0.075
-	}
-
-	tags = {
-		ETHIC_SOCIALISM_UNITY
-		ETHIC_ALLOWS_SHARED_BURDEN
-		ETHIC_ALLOWS_WORKER_OWNERSHIP
-	}
-
-	random_weight = {
-		value = 100
-	}
-
-	pop_attraction_tag = {
-		desc = POP_ATTRACTION_SOCIALISM_POS
-		trigger = {
-			OR = {
-				has_ethic = ethic_socialism
-				has_ethic = ethic_fanatic_socialism
-			}
-		}
-	}
-
-
-	country_attraction = {
-		value = 1
-	}
-
-	# from = planet
-	pop_attraction = {
-		value = 1
-		modifier = {
-			factor = 0
-			has_trait = trait_hive_mind
-		}
-
-		modifier = {
-			factor = 1.5
-			has_trait = "trait_natural_sociologists"
-		}
-
-		modifier = {
-			factor = 2
-			has_trait = "trait_communal"
-		}
-
-		modifier = {
-			factor = 0.5
-			has_trait = "trait_thrifty"
-		}
-
-		modifier = {
-			factor = 0.5
-			has_trait = "trait_solitary"
-		}
-
-		modifier = {
-			factor = 1.5
-			has_trait = "trait_quick_learners"
-		}
-
-		modifier = {
-			factor = 1.5
-			has_trait = "trait_slow_learners"
-		}
-
-		modifier = {
-			factor = 1.25
-			OR = {
-				has_living_standard = { type = living_standard_shared_burden }
-				has_living_standard = { type = living_standard_utopian }
-				has_living_standard = { type = living_standard_good }
-				has_living_standard = { type = living_standard_worker_ownership }
-			}
 		}
 	}
 }

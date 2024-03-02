@@ -1,0 +1,294 @@
+﻿l_simp_chinese:
+ 
+###############
+#  外交评价
+###############
+ opinion_of_communist_pos: "理想的国度"
+ opinion_our_comrades_pos: "我们的同志"
+ opinion_of_communist: "共产主义暴民"
+ opinion_of_capitalism: "阶级敌人"
+ opinion_pink_government: "粉红色的政府"
+ opinion_capitalist_roader: "走资派？"
+ opinion_of_free_pos: "人权的坐标"
+ opinion_of_free: "散漫的小布尔乔亚"
+
+ opinion_socialism_pos_1: "社会主义同志"
+ opinion_socialism_pos_2: "社会主义同志"
+ opinion_socialism_pos_3: "社会主义同志"
+ opinion_socialism_pos_4: "社会主义同志"
+ opinion_socialism_neg_1: "共产主义暴君"
+ opinion_socialism_neg_2: "共产主义暴君"
+ opinion_socialism_neg_3: "共产主义暴君"
+ opinion_socialism_neg_4: "共产主义暴君"
+ opinion_capitalism_pos_1: "自由市场商人"
+ opinion_capitalism_pos_2: "自由市场商人"
+ opinion_capitalism_pos_3: "自由市场商人"
+ opinion_capitalism_pos_4: "自由市场商人"
+ opinion_capitalism_neg_1: "资本主义剥削者"
+ opinion_capitalism_neg_2: "资本主义剥削者"
+ opinion_capitalism_neg_3: "资本主义剥削者"
+ opinion_capitalism_neg_4: "资本主义剥削者"
+ 
+###############
+#  国民理念
+###############
+ civic_shared_burden: "同甘共苦"
+ civic_shared_burden_desc: "此社会信奉资源平均分配的理念，无论是统治者还是被统治者都一视同仁。所有人为了整体利益而共同努力。"
+ civic_tooltip_shared_burden_effects: "$civic_tooltip_socialistic_effects$\n$pop_ethic_egalitarian_attraction_mult$: §G+50%§!"
+ civic_socialistic: "革命先锋队"
+ civic_socialistic_desc: "这个社会传统上保留着共产主义的理想，虽然将行政的权力交由从劳动者中脱颖而出的少数个体，但却将这个体制视为通往真正平等社会的过渡形态。"
+ civic_tooltip_socialistic_effects: "§R可以使用特殊的法令及政策§!"
+ civic_beacon_of_liberty: "人权灯塔"
+ civic_beacon_of_liberty_desc: "此社会是在黑暗海洋中闪耀的灯塔。在这里个人自由得到最大的尊重。"
+ 
+ civic_welfare_state: "福利国家"
+ civic_welfare_state_desc: "在该社会中，国家传统上在保护和促进其公民的经济和社会福利方面发挥关键作用。"
+ 
+ civic_martial_brotherhood: "人民军队"
+ civic_martial_brotherhood_desc: "出身无产阶级，旗号工农红军。保家卫国促生产，一切为了人民。"
+ civic_private_militaries: "私人军队"
+ civic_private_militaries_desc: "战争来临时，该社会传统上依赖雇佣军和私营军事公司的力量。"
+ 
+ civic_enlightment: "和平国度"
+ civic_enlightment_desc: "学会了安居乐业的生活，使这个文明的社会经济发展达到了一个空前的水平。"
+
+ civic_true_hero: "英雄本色"
+ civic_true_hero_desc: "这个社会认为英雄是一种行为而不是一种身份，在有需要的时候，每个人都能成为彼此的英雄。\n\n§L兄弟，来份色图。§!"
+ civic_hero_family: "英雄家庭"
+ civic_hero_family_desc: "这个国家曾经被一次危机拖入深渊，为了促进经济恢复，国家通过各种手段奖励愿意去生育后代的家庭，一直持续到进入太空的今天。"
+ 
+ civic_divine_order: "种姓制度"
+ civic_divine_order_desc: "这个社会以复杂的文化和宗教意识形态为基础，通过严格的等级制度组织起来。每个社会阶层都认为其服务于他们神圣且命中注定的使命。
+ 
+ civic_cultural_review_department: "文化审查部门"
+ civic_cultural_review_department_desc: "在这个社会中存在着一个严格而模糊的文化审核机制，任何文化产品都有可能受到严厉的打击。"
+ civic_tooltip_cultural_review_department_effects:2 "§R谁都不知道这个“灵活的标准程序”到底有什么存在的意义，我也一样。§!"
+ 
+ civic_military_industry: "战争工匠"
+ civic_military_industry_desc: "该社会有着发达的军工与战争的浓厚传统，他们的军舰和枪炮是最好的，但也价格不菲。"
+ civic_tooltip_military_industry_effects: "$MOD_SHIP_WEAPON_DAMAGE$: §G+10%§!\n$MOD_SHIP_ARMOR_MULT$: §G+10%§!\n$MOD_SHIP_WEAPON_RANGE_MULT$: §G+10%§!\n军事舰船建造花费: §R+15%§!"
+ 
+ civic_learning_society: "学习型社会"
+ civic_learning_society_desc:1 "在这个社会，每个人都穷尽自己的一生去学习知识，以有限的生命创作无限的可能。"
+ 
+ civic_heart_of_the_unity: "和谐集体"
+ civic_heart_of_the_unity_desc: "该社会的特点是它的人民有着强烈的精神共同体和发展共同利益的意识。"
+ civic_tooltip_spiritualist_or_pacifist: "一定程度上偏向§Y$ethic_fanatic_spiritualist$§!或者§Y$ethic_fanatic_pacifist$§!"
+ 
+ civic_in_perfect: "部落文化"
+ civic_in_perfect_desc: "这个排外的社会充满了强烈的氏族部落认同意识。"
+ 
+ civic_evangelism: "福音传道"
+ civic_evangelism_desc: "该文明的人们确信，宇宙中所有知觉生命都是由某种更高等的精神联系在一起的。而今，他们渴望在整个银河系传道他们的信仰。"
+ 
+ civic_void_dwellers: "虚空居者"
+ civic_void_dwellers_desc: "这个文明有向往深邃宇宙的传统文化，因此当进入星际时代后，他们不惜抛弃星球上的生活，以太空为家。"
+ 
+ civic_independent: "平等独立"
+ civic_independent_desc: "我们勤劳，我们勇敢，独立自由是我们的理想。我们战胜了多少苦难，才得到今天的解放。我们爱人民，我们爱家乡，谁敢侵犯我们就叫他灭亡。"
+
+ civic_sovereign_guardianship: "主权监护"
+ civic_sovereign_guardianship_desc: "这个由相互争斗的部落组成的集合，已经在长久的历史上形成了对固守领土和防御姿态的偏好。"
+ civic_hive_sovereign_guardianship: "监护集群"
+ civic_hive_sovereign_guardianship_desc: "这个集体已经在长久的历史上形成了对固守领土和防御姿态的偏好。"
+ civic_machine_sovereign_guardianship: "监护矩阵"
+ civic_machine_sovereign_guardianship_desc: "这个机械集体已经在长久的历史上形成了对固守领土和防御姿态的偏好。"
+ 
+ civic_coalition_government: "联合政府"
+ civic_coalition_government_desc: "这一文明由大大小小的独立国家组成，但他们组建了一个超国家机构来管理整个文明，防止文明走向自我毁灭。"
+ civic_tooltip_coalition_government_effects: "§Y附属国§!可以平等扩张。\n能建造§Y私人殖民船§!。\n$MOD_COUNTRY_SECTOR_CAP_ADD$: §G+3§!\n$MOD_TRADITION_COST_NUM_COLONIES_MULT$: §R+25%§!"
+ 
+###############
+#  政府
+###############
+ RT_PEOPLES_REPRESENTATIVE: "人民代表"
+ RT_LABOUR: "总书记"
+
+ gov_communal_parity: "平等共同体"
+ gov_communal_parity_desc: "这种政府相信所有公民都是完全平等的。不管他们处于什么阶级，被分配了什么工作。每一个生命与另一个生命的价值都相同。"
+ gov_collective_democracy: "民主集中制"
+ gov_collective_democracy_desc: "社会主义的民主政府，人民通过选举产生人民代表大会，并依据组织制度进行民主监督，保证大多数人民的利益得到保障。"
+ gov_peoples_commissariat: "人民委员会"
+ gov_peoples_commissariat_desc: "集体主义的寡头政府，政府机构由一个特别紧急委员会任命和监督，其成员必须得到人民的批准，并共同努力维护国家的利益。"
+ 
+ gov_soviet_union: "人民议会联盟"
+ gov_soviet_union_desc: "由若干遵循社会主义原则的主权共和国所组成的国家联盟，各国工人党派的领导者在经过政治协商后将资源进行统一调配，以促进各国共同发展。"
+ gov_commonwealth_of_states: "国家联合体"
+ gov_commonwealth_of_states_desc: "主权国家为了某种共同利益而组成的国家联盟，各成员国对内、对外享有全部主权，经过平等协商把各自的一部分权力季托给邦联机构。"
+ gov_united_empire: "共主邦联"
+ gov_united_empire_desc: "由多个国家联合成立的星际帝国，共主邦联的成员维持各自的独立，但共同拥戴同一位世袭的国家元首作为团结的象征。"
+ 
+###############
+#  法令
+###############
+ edict_speed_of_people: "生产大跃进"
+ edict_speed_of_people_desc: "咱们工人有力量，每天每日工作忙。改成了高楼大厦，修起了铁路煤矿，改造的世界变了么变了样。"
+ edict_scientific_spirit: "科学精神"
+ edict_scientific_spirit_desc: "科研人员要掌握唯物辩证法的思想武器，追求真理，持之以恒，为社会发展作出卓越贡献！\n\n§Y$job_researcher_plural$§!会产出§Y1§!£unity£凝聚力"
+ edict_to_the_countryside: "上山下乡"
+ edict_to_the_countryside_desc: "有为青年到偏远地区去，接受广大人民的再教育，很有必要。"
+ edict_family_planning: "计划生育"
+ edict_family_planning_desc: "优生优育优教，利国利家利民。"
+ edict_peoples_war: "人民战争"
+ edict_peoples_war_desc: "让反动派湮没在人民战争的汪洋大海之中吧！我们失去的是敌人的威胁，得到的将是全银河的解放！"
+ edict_anti_triad_putting: "扫黑除恶"
+ edict_anti_triad_putting_desc: "依法严厉打击黑恶势力，坚决维护人民群众合法权益。"
+ edict_anti_corruption: "反腐倡廉"
+ edict_anti_corruption_desc: "我们必须整肃我们的队伍，严格纪律，决不能让蛀虫混进革命队伍之中。"
+ edict_comprehensive_development_plan: "综合发展计划"
+ edict_comprehensive_development_plan_desc: "我们当前的任务是综合调控，在平稳发展中维持经济活力。"
+ edict_basic_resource_planning: "基础资源开发计划"
+ edict_basic_resource_planning_desc: "我们当前的任务是提高基础资源储备，为后续的产业提供坚实的基础。"
+ edict_manufacturing_transformation_plan: "制造业发展计划"
+ edict_manufacturing_transformation_plan_desc: "我们当前的任务是加快工业发展，全面促进制造业转型升级。"
+ edict_cultural_development_programme: "文化建设计划"
+ edict_cultural_development_programme_desc: "我们当前的任务是建设社会文化，满足人民的精神文化需求。"
+ edict_advanced_research_projects: "尖端科研计划"
+ edict_advanced_research_projects_desc: "我们当前的任务是促进科学发展，将先进生产力掌握在我们的手中。"
+ edict_foreign_trade_development_plan: "外贸发展计划"
+ edict_foreign_trade_development_plan_desc: "我们当前的任务是发展对外贸易，为经济的发展提供充沛的动力。"
+ 
+ edict_cultural_revolution: "$unity_ambition$文化大革命"
+ edict_cultural_revolution_desc: "我们如果想要保持我们的先进性，就必须改造我们的思想。旧有的成规必须被打破，唯有如此，我们才能将革命坚持到底。"
+ 
+ edict_extension_of_working_hours_act: "延长工时法案"
+ edict_extension_of_working_hours_act_desc: "三一日工作制已经无法满足我们发展的需求了，既然你们成天抱怨工资低，那你们为什么不主动加班呢？"
+ edict_free_trade_act: "平等贸易法案"
+ edict_free_trade_act_desc: "通过完全发挥市场的活力，我们可以得到更多的利润。"
+ edict_business_competition_act: "商业竞争法案"
+ edict_business_competition_act_desc: "如果我们不争取主动，那么我们就会倒下。"
+ edict_the_flexible_seniority_act: "弹性工龄法案"
+ edict_the_flexible_seniority_act_desc: "我们必须正视劳动力短缺的事实，并尽快推行相应的措施。"
+ edict_indefinite_patent_act: "无限期专利法案"
+ edict_indefinite_patent_act_desc: "专利保护能够激励研究者，而延长它的期限就是延长我们的利益。\n\n§Y$job_researcher_plural$§!会产出§Y1§!£unity£凝聚力"
+ edict_blessings: "§M Blessings！ §!"
+ edict_blessings_desc: "群星间的人民富豪歆享了世界的财富，豫备着给众生以无限的福报。"
+ edict_consumerist_propaganda: "消费狂潮"
+ edict_consumerist_propaganda_desc: "消费带来快乐，消费带来幸福。只有人们消费，经济才会增长。"
+ 
+###############
+#  政策
+###############
+ policy_ten_year_plan: "十年计划"
+ policy_ten_year_plan_desc: "通过科学的计划与安排，我们能够极大的发展生产力。\n\n§G选择计划侧重点后通过法令颁布计划指标§\n\n "
+ comprehensive_development_plan: "综合发展计划"
+ comprehensive_development_plan_desc: "我们当前的任务是综合调控，在平稳发展中维持经济活力。\n§G综合的宏观调控可以让我们的产出全面增加，同时减少国家财政的支出，促进民间经济的繁荣。§!\n\n"
+ basic_resource_planning: "基础资源开发计划"
+ basic_resource_planning_desc: "我们当前的任务是提高基础资源储备，为后续的产业提供坚实的基础。\n\n§G科学的规划可以让我们更合理的方式进行劳动，在增加大量基础资源产出的同时也能够减少地区规划的成本。§!\n\n"
+ manufacturing_transformation_plan: "工业发展计划"
+ manufacturing_transformation_plan_desc: "我们当前的任务是加快工业发展，全面促进制造业转型升级。\n\n§G对工业的全面补贴能够大幅度提高工业产品的产出，也有助于我们工程技术的发展。§!\n\n"
+ cultural_development_programme: "文化建设计划"
+ cultural_development_programme_desc: "我们当前的任务是建设社会文化，满足人民的精神文化需求。\n\n§G采取这一计划可以促进文化产业的蓬勃发展，在提供大量的社会研究报告的同时，我们的人民也会更加团结。§!\n\n"
+ advanced_research_projects: "尖端科研计划"
+ advanced_research_projects_desc: "我们当前的任务是促进科学发展，将先进生产力掌握在我们的手中。\n\n§G资源的倾斜能够更好地激发科学家们的研究热情，加快科学研究的速度——尤其是基础物理这一重中之重。§!\n\n"
+ foreign_trade_development_plan: "外贸发展计划"
+ foreign_trade_development_plan_desc: "我们当前的任务是发展对外贸易，为经济的发展提供充沛的动力。\n\n§G我们可以培养专业的外交人才，更好的取得其他国家对我们的信任，同时推动贸易的快速发展。§!\n\n"
+ 
+ policy_basic_state_policy: "基本国策"
+ policy_basic_state_policy_desc: "虽然我们已经进入了大同社会，但怎么未来发展的道路怎么走，仍然值得我们认真思考。"
+ continuous_revolution: "§R不断革命§!"
+ continuous_revolution_desc: "当我们仰望星海之时，我们必须认识到，还有千千万万被压迫的劳动者正在寻求着解放。"
+ the_internal_construction: "§G内部建设§!"
+ the_internal_construction_desc: "打铁还需自身硬，想要更进一步，我们就必须打好坚实的基础。"
+ reform_and_opening_up: "§B改革开放§!"
+ reform_and_opening_up_desc: "僵化的经济体制必须经受改革，我们或许会走向歧途，但为了社会的发展，我们需要冒险。"
+
+ trade_policy_default: "财富创造"
+ trade_policy_default_name: "$trade_policy_default$"
+ trade_policy_default_desc: "贸易的目的是为个人创造利润并为国家创造收入。我们应当将贸易成果完全投入财富的创造。\n\n§E每份收集的£trade_value£§Y贸易价值§!会贡献£energy£§Y2§!§!"
+ trade_policy_consumer_goods: "消费者利益"
+ trade_conversion_consumer_goods_name: "$trade_policy_consumer_goods$"
+ trade_policy_consumer_goods_desc: "利润和税收都不及提升公民的生活水平重要。我们应当将贸易成果投向日常用品的制造与分配。\n\n§E每份收集的£trade_value£§Y贸易价值§!会贡献£energy£§Y1§!和£consumer_goods£§Y1§!§!"
+ trade_policy_unity: "理念市场"
+ trade_conversion_unity_name: "$trade_policy_unity$"
+ trade_policy_unity_desc:1 "贸易路线不仅仅可以传输货物，还可以传播思想。我们应当利用贸易成果确保所有我们开展业务的行星都能听到我政府的声音。\n\n§E每份收集的£trade_value£§Y贸易价值§!会贡献£energy£§Y1§!和£unity£§Y1§!§!"
+ trade_policy_trade_league: "贸易联盟"
+ trade_conversion_trade_league_name: "$trade_policy_trade_league$"
+ trade_policy_trade_league_desc:1 "通过联合成立贸易联盟，我们能够将我们的繁荣昌盛和营利安全性推进到全新的高度。\n\n§E收集的每点 £trade_value£ §Y贸易值§!会为我们贡献£energy£ §Y1§!、£unity£§Y1§!和 £consumer_goods£§Y1§!§!"
+ 
+###############
+#  战争
+###############
+ casus_belli_cb_galactic_revolution: "§R革命§"
+ 
+ casus_belli_cb_for_the_human_rights: "为了人权"
+ 
+ casus_belli_cb_the_benefits_spread: "扩大利益"
+ 
+ war_goal_wg_galactic_revolution: "§R银河革命§"
+ war_goal_wg_galactic_revolution_desc:1 "\n\n§R起来，饥寒交迫的奴隶，起来，全银河受苦的人。满腔的热血已经沸腾，要为真理而斗争！§!"
+ 
+ war_goal_wg_the_benefits_spread: "扩大利益"
+ war_goal_wg_the_benefits_spread_desc:1 "我们的利益将由我们自己争取。"
+ 
+ war_goal_wg_implement_human_rights: "执行人权"
+ war_goal_wg_implement_human_rights_desc: "不能指望那些残暴的政府主动尊重人权，他人的权力必须由我们的武力保障。"
+ wg_implement_human_rights_accept_them: "§Y[From.GetName]§!接受了灯塔的光芒。他们国内残余的叛乱分子干扰了生产企业的运转，但一切都会好起来的——但愿如此"
+ 
+###############
+#  科技
+###############
+ tech_interstellar_society: "星际意识"
+ tech_interstellar_society_desc: "自从我们开始仰望星空，我们就一直在预测集体未来可能的发展方向。如今我们步入星辰，我们终于能够实现当初所制定的目标了。"
+ tech_robot_assembly_complex: "机器人装配系统"
+ tech_robot_assembly_complex_desc: "先进的装配模板系统，可以大幅提高我们组装新机器人的效率。"
+
+ UNLOCKS_ORBITAL: "§H解锁轨道站：§!"
+ tech_habitat_1: "轨道居住站"
+ tech_habitat_1_desc: "允许建造规模庞大，能够自给自足的轨道居住站。"
+ allow_habitats: "§H解锁巨型建筑：§! 栖息地"
+ habitat_central_complex_MEGASTRUCTURE_DETAILS: "§Y栖息地§!是一种用于永久居住的巨型空间站。"
+ requires_ap_master_builders:1 "$TRIGGER_FAIL$需要§Y$ap_master_builders$§!飞升天赋。"
+
+ tech_building_school_1: "人才培育"
+ tech_building_school_1_desc: "随着技术的进步，我们需要培养专门的人才来胜任他们的工作。"
+ tech_building_school_2: "星际人才选拔"
+ tech_building_school_2_desc: "一个星际帝国最关键的是培养更多具备专业知识的技术人员。"
+ tech_building_school_3: "银河教育"
+ tech_building_school_3_desc: "我们需要面向全银河进行专业知识的培育，以此满足我们对稀缺人才的需求。"
+ 
+###############
+#  建筑
+###############
+ building_robot_assembly_plant: "机器人组装厂"
+ building_robot_assembly_plant_desc: "高科技工厂，熟练的机器人专家就在这里组装最新的机器人模型。"
+
+ building_school_1: "教育中心"
+ building_school_1_desc: "我们的新一代在这里接受教育，以便他们能胜任需要更多专业知识的工作。"
+ building_school_2: "星际学府"
+ building_school_2_desc: "一片容纳多所教育设施的区域，可以让更多个体接受教育。"
+ building_school_3: "银河大学"
+ building_school_3_desc: "一所面向全银河进行招生的高等学府，无数学生在这里学习最尖端的知识。"
+ building_school_3_ges: "银河培育中心"
+ building_school_3_ges_desc: "一处从帝国各处吸收并培养领袖型意识终端的专门场所。"
+ 
+###############
+#  传统
+###############
+ tr_prosperity_interstellar_franchising: "星际特许经营"
+ tr_prosperity_interstellar_franchising_delayed: "开放经营权能够让最普通的星球也可以拥有最繁华的生意，不但提高本地就业也可以减少我们的行政成本。"
+ tr_prosperity_interstellar_franchising_coalition_government: "$tr_prosperity_interstellar_franchising$"
+ tr_prosperity_interstellar_franchising_coalition_government_delayed: "$tr_prosperity_interstellar_franchising_delayed$"
+ tr_prosperity_interstellar_franchising_coalition_government_desc: "$MOD_COUNTRY_COLONY_INFLUENCE_COST_MULT$: §G-20%§!"
+ tr_prosperity_creative_collectives: "创意共同体"
+ tr_prosperity_creative_collectives_delayed: "通过组建一系列自主运营的创意共同体来掌管工厂和学校，我们可以大幅提高工业生产力。"
+ 
+###############
+#  开场白
+###############
+ START_SCREEN_PART_TWO_PEOPLES_COMMUNE: "我们的人民长期饱受暴政和压迫之苦。经过艰苦卓绝的阶级斗争，我们——无产阶级——终于建立了属于自己的星球政府。从现在开始，干部需要参与劳动，工人将会参加管理，一切都会更进一步。通过所有制和政治体制上的变革，结合教育、文艺与意识形态革命，我们必将团结一致，打破旧世界的枷锁，从而真正地改造世界。"
+ START_SCREEN_PART_TWO_COLLECTIVE_DEMOCRACY: "我们的文明经历了天启般的战争、国家分裂独立和思想疏远偏离。但是，我们已然意识到冲突没有任何意义，是拥抱和平团结的时刻了。我们建立了一个完全以人民及其共同利益为基础的世界政府。民主选举、社会保障和人人享有公正——所有这些都使我们能够打破恶性循环，使我们做好了步入群星的准备。"
+ START_SCREEN_PART_TWO_PEOPLES_COMMISSARIAT: "通过尝试不同的经济模式，我们发现幸福的关键在于个人的主动性。但是，在疯狂和野蛮的自由市场几乎摧毁了我们的文明之后，政府不得不在严格的监督下接管资金流动。现在，我们的大部分财富都属于国有企业，企业受到庞大的官僚体系的监管。统治者的精心选择保证了整个制度的可持续性。"
+ START_SCREEN_PART_TWO_DICTATORSHIP_OF_THE_PEOPLE: "很长一段时间，我们的星球分裂为众多的国家，资源几乎被贪婪的资本家瓜分，直到一位明智的领袖统一了世界。他关心每一个公民，创建并亲自领导政府管理整个星球。转向计划经济使生产率迅速提高，并使工人阶级富裕起来，而富余的资源则用于实现我们长期以来的梦想······"
+ 
+ START_SCREEN_PART_TWO_COMMUNAL_PARITY: "虽然我们早期的社会是阶层社会，地位稳固的精英阶层统治着平民阶层。但最终诞生了一个公平无阶级的社会，所有人都毫无例外地被平等地对待。这种哲学成为了我们的文化的主导价值观，同时也是我们现代社会的基石。"
+ 
+ START_SCREEN_ESU: "同志们，今天我们在这里隆重集会，庆贺一个时代的开端！\n\n五十年前，无产阶级政府成立的时候，我们在这里为无产阶级最终胜利而喝彩；在五十年中，在四十亿劳动人民的奉献中，我们逐渐克服了困难的环境，重新建造了伟大的文明，并在科学上取得了重大的突破；而就在一个月前，我们最优秀的头脑发现了稳定超空间的方法，使稳定的超光速航行从幻想变成了现实！自从百年前超空间被发现的时刻起，我们无不盼望着这一刻的到来——现在，我们将前往群星之中，寻求科技的突破，让共产主义的时代真正来临！\n\n同志们，让我们欢呼吧！人类文明即将大步迈向群星，我们将拥抱新时代，我们将筑就新辉煌！\n\n地球人民大团结万岁！无产阶级专政万岁！人民万岁！人民万岁！"
+ START_SCREEN_NHF: "一个多世纪以前，巨型方舟矢车菊号携带着我们的25万祖先从遥远的地球来到了现今被称为[GetHomeWorldName]的美丽新世界。在经过了漫长而艰辛的旅途之后，殖民者们终于再次看到了阳光——尽管那是一个外星世界。\n\n殖民的最初几年很艰辛，但我们绝不会忘记那些软弱的民主主义者对我们的伤害。在净化我们的心灵，培养绝对忠诚的战士的过程中，我们也变的更加强大。\n\n在完全征服了这个新世界后，那些卑贱的外星人成为了帝国复兴的重要劳动力，我们的人口爆炸性的增长。最近的几十年里，我们的科技飞速发展，完全掌握了将超空间稳定下来的方法。再次出发的时刻终于到来了——我们整装待发，将要夺回我们的地球！"
+ START_SCREEN_ULYSSES: "二十一世纪末，财团领导下的无数跨国公司分布在全球各地，成为了地球上最具领导力的组织之一。我们的董事会野心勃勃，我们的团队充满活力，我们的员工积极进取。那是一个美好的时代，却也是一个停止的时代——左派分子统治下的愚昧民众盘踞在世界岛的东端，阻碍着财团更进一步。\n\n突然间，转变的契机到来了，一艘往返于太阳系边缘的采矿飞船偶然间发现了亚空间航道的踪迹——而那艘矿船又恰巧是财团的财产。我们的研究员从中复原了一段惊人的影像：一个陌生的恒星系内，环绕着一个美丽的、生机勃勃的世界。当时的董事长立刻认识到了摆脱累赘的方法，开始筹划“尤利西斯计划”，以星际殖民为由打造了一队庞大无比的方舟。在愚民的欢呼声中，我们全体团队登上了方舟，巧妙地转移了负资产。\n\n如今我们在这个远古的奇迹之中扎根了百年之久，财团终于彻底掌握了稳定超空间航道的方法。我们将探索群星，扩大资产的脚步永不停歇！"
+ START_SCREEN_UNE: "这是一片被诅咒的土地，在蒙昧的年代，我们像动物一样在这片废土艰难求生，繁衍生息，直到我们重新演化出了意识。伟大的意识让我们连为一体，重新建立了璀璨的文明。\n\n我们觉醒了，意识用许多眼睛研究着[GetHomeWorldName]上的文明遗迹，探寻着我们的由来。终于，我们找到了，我们即是“人类”，我们遵循祖先的原则，称呼意识为“地球联合国”。\n\n原子最终分裂，我们开发出空间飞船。意识将带着“人类”之名，探索更为遥远的星空。"
+ START_SCREEN_BLORG: "在亿万年前，最初的原始[GetSpeciesName]种群在[GetHomeWorldName]的茂密的热带雨林中形成。但我们孤僻独居的习惯阻碍了社会的发展，我们互不相干，老死不相往来。\n\n两百年前，一艘星际飞船在我们的星球上坠毁，来自星空友人的馈赠让我们的社会文化得以发展。依据资料库中记载的宪法原则，伟大的合众国将平等的光辉撒遍了星球。科技进步一帆风顺，但随着人口的增长，民众开始变得越来越浮躁。在我们的世界处于无政府状态的边缘之际，军队介入恢复了法制。新的秩序已经建立，在最后一个固执己见的部落彻底融入我们伟大的国家后，我们对人类文化的认同便愈发强烈。\n\n如今，超空间航道已经稳定了下来，布洛葛将会把合众国之梦洒遍群星，让人类文明再次伟大！"
+ START_SCREEN_FUTURE: "现代人类约20万年前在非洲形成以来发生了许多事。我们的物种迅速扩散到全球并形成了最早的文明。\n\n科技快速发展，虽然并非毫无代价。在原子被驯服之前，战争已常常夺取数百万计的生命，而动荡的21世纪见证了联合国在维护稳定的努力中的不断扩展。22世纪早期，这个超国家组织成为了实质性的世界政府，并开始向群星进发——\n\n这都是过去的事了，为了对抗侵略我们家园的恶魔，我们付出了惨重的代价。我们骄傲的地球被摧毁，我们被流放于时间之外。尽管历经磨难，我们恢复的科技也只有原来的沧海一粟。我们不知道在原先时空中的通报究竟胜利与否，而摆在我们面前的，是一个崭新的开始。"
+
+ ulysses_system_NAME: "心宿二星系"
+ ulysses_system_DESC: "尤利西斯财团的初始星系。\n\n$system_initializer_DESC$"

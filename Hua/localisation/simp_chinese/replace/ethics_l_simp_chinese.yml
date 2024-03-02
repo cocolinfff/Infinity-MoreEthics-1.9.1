@@ -1,0 +1,276 @@
+﻿l_simp_chinese:
+
+###############
+#    思潮
+###############
+ 
+ ethic_authoritarian: "精英主义"
+ ethic_authoritarian_desc:1 "§L在社会运行的过程当中，个体之间往往会产生社会价值的巨大差异。更具价值的精英理应拥有更高的社会地位，这便是领袖引领我们前进的赞美与报酬。§!\n"
+ ethic_fanatic_authoritarian: "权威主义"
+ ethic_fanatic_authoritarian_desc:1 "§L文明的标志是井然有序的社会秩序，是英明的统治者和严格的等级制度。克服自身的困难，服从于伟大领袖的命令而前进，我们才有资格被称为文明的生命。§!\n"
+ 
+ ethic_egalitarian: "宪政主义"
+ ethic_egalitarian_desc:1 "§L我们的社会建立在万民的智慧之上，任何公民都有自由讨论的权利。那些妄图以个人的思想凌驾众生的社会宣称他们具有真理，而我们才是点亮灯塔的人。§!\n"
+ ethic_fanatic_egalitarian: "自由主义"
+ ethic_fanatic_egalitarian_desc:1 "§L去思考自己的价值，去塑造理想的社会，去热爱这个自由的世界，以及你自己——这是你天赋的权利，我们与你共同捍卫的权利。§!\n"
+ 
+ ethic_xenophobe: "单一主义"
+ ethic_xenophobe_desc:1 "§L任何本文明所延申的文化都是经过千锤百炼的、最适合于我们的优秀文化，我们应当时刻牢记：他人的思想对我们的文明而言无异于剧毒。§!\n"
+ ethic_fanatic_xenophobe: "排外主义"
+ ethic_fanatic_xenophobe_desc:1 "§L我们已经在冒着巨大的风险探索星海，任何不解与未知都被猜忌所巨大化。对于异族生物的信任是毫无意义的，跨物种与意识形态的差异将导致宇宙社会不再是个童话里的森林。§!\n"
+ 
+ ethic_xenophile: "多元主义"
+ ethic_xenophile_desc: "§L热忱之心不可泯灭，体恤弱者，互相帮助，无论与任何文明的人们都能成为朋友，纵使这份感情被背叛过千百回，这仍然是我们最大的愿望。§!\n"
+ ethic_fanatic_xenophile: "崇外主义"
+ ethic_fanatic_xenophile_desc: "§L我们的内心中都存在着一份对于未知的好奇心，以及对于孤独发自本能的恐惧。我们愿意与任何物种建立交流，来让自己知道得更多，了解得更多。§!\n"
+ 
+ ethic_militarist: "干涉主义"
+ ethic_militarist_desc:1 "§L在宇宙中没有真正的安宁，我们相信唯一的真正的美德是勇气和纪律，以及主动出击以捍卫我们生活方式的决心。§!\n"
+ ethic_fanatic_militarist: "军国主义"
+ ethic_fanatic_militarist_desc:1 "§L在这个无助的深空中，没有什么比武力更具备话语权。武装力量能够更好地保护自己，胜过任何脆弱的约定与诺言。§!\n"
+ 
+ ethic_pacifist: "和平主义"
+ ethic_pacifist_desc: "§L任何事情都可以被和平地解决，暴力只是极端状况下不得已的手段。冲突带来的结果是破坏性的，甚至会破坏我们互相争夺的东西。§!\n"
+ ethic_fanatic_pacifist: "道德主义"
+ ethic_fanatic_pacifist_desc: "§L战争只能带来痛苦与死亡，所有人都会因此付出巨大而无谓的代价。而作为文明的化身，我们一向擅长通过道德的手段解决其他文明只能通过武力解决的问题。§!\n"
+ 
+ ethic_spiritualist: "精神主义"
+ ethic_spiritualist_desc:1 "§L整个生命世界和文化只是精神的表现形态，远非狭隘的“物质”一词所能概括。比起有限的物质生命，我们更应该关心人民无限的精神福祉。§!\n"
+ ethic_fanatic_spiritualist: "教权主义"
+ ethic_fanatic_spiritualist_desc: "§L先哲为了我们永恒的幸福而殚精竭虑，方才铸就了我们思维的根基。旧有的教条并非不可超越，只是在更进一步之前，我们必须耐心等待我们的社会，等待我们的人民。§!\n"
+ 
+ ethic_materialist: "技术主义"
+ ethic_materialist_desc: "§L所谓的精神只是宇宙规律运转所得到的结果，而将情绪置于现实生活之上则是绝对愚蠢的行径，只有日新月异的进步才能为我们带来美好生活。§!\n"
+ ethic_fanatic_materialist: "机械主义"
+ ethic_fanatic_materialist_desc: "§L在低效的传统中，一切进步都被无情地阻碍了。社会关系的组成不过是一组又一组算法，在日新月异的技术面前，没有什么东西不能被取代。§!\n"
+ 
+ ethic_capitalism: "竞争主义"
+ ethic_capitalism_desc:1 "§L物竞天择，适者生存，个人生存本身就是目的，社会只是达到个人目的的手段。只有实现了个人的利益，社会的整体利益才能得到保障。§!\n"
+ ethic_fanatic_capitalism: "资本主义"
+ ethic_fanatic_capitalism_desc:1 "§L所谓社会就是由资本的流动构建的利益关系，人们在完美的自然的市场中按照弱肉强食的规则进行竞争，只有在竞争中脱颖而出的个人才最具有代表我们文明的最大的才能。§!\n"
+ 
+ ethic_socialism: "合作主义"
+ ethic_socialism_desc: "§L个人和集体之间、个人利益和集体利益之间没有而且也不应当有不可调和的对立，任何个人的价值便存在于他所组成的庞大集体当中。§!\n"
+ ethic_fanatic_socialism: "社会主义"
+ ethic_fanatic_socialism_desc: "§L个人价值的衡量不在于资本的多少，而在于其是否参与社会的运行。每个个体都是文明重要的组成部分，如果一个公民不能被社会尊重，那只能说明这个文明已经失去了存在的价值。§!\n"
+ 
+###############
+#  思潮相关
+###############
+ 
+ COL_LABEL:1 "权威主义 <-> 自由主义"
+ XEN_LABEL: "排外主义 <-> 崇外主义"
+ MIL_LABEL: "军国主义 <-> 道德主义"
+ SPI_LABEL: "教权主义 <-> 物质主义"
+ SOC_LABEL:1 "社会主义 <-> 资本主义"
+ 
+ suppressed_xenophobe: "种族主义受镇压"
+ suppressed_xenophobe_desc: " §H种族主义§!思潮正在被政府镇压。"
+ promoted_xenophobe: "种族主义受鼓励"
+ promoted_xenophobe_desc: "§H种族主义§!思潮得到了政府的鼓励。"
+ suppressed_xenophile: "崇外主义受镇压"
+ suppressed_xenophile_desc: "§H崇外主义§!思潮正在被政府镇压。"
+ promoted_xenophile: "崇外主义受鼓励"
+ promoted_xenophile_desc: "§H崇外主义§!思潮得到了政府的鼓励。"
+ suppressed_spiritualist: "教权主义受镇压"
+ suppressed_spiritualist_desc: "§H教权主义§!正在被政府镇压。"
+ promoted_spiritualist: "教权主义受鼓励"
+ promoted_spiritualist_desc: "§H教权主义§!思潮得到了政府的鼓励。"
+ suppressed_materialist: "未来主义受镇压"
+ suppressed_materialist_desc: "§H未来主义§!思潮正在被政府镇压。"
+ promoted_materialist: "未来主义受鼓励"
+ promoted_materialist_desc: "§H未来主义§!思潮得到了政府的鼓励。"
+ suppressed_authoritarian: "精英主义受镇压"
+ suppressed_authoritarian_desc: "§H精英主义§!思潮正在被政府镇压。"
+ promoted_authoritarian: "精英主义受鼓励"
+ promoted_authoritarian_desc: "§H精英主义§!思潮得到了政府的鼓励。"
+ suppressed_egalitarian: "平等主义受镇压"
+ suppressed_egalitarian_desc: "§H平等主义§!思潮正在被政府镇压。"
+ promoted_egalitarian: "平等主义受鼓励"
+ promoted_egalitarian_desc: "§H平等主义§!思潮得到了政府的鼓励。"
+ suppressed_militarist: "军国主义受镇压"
+ suppressed_militarist_desc: "§H军国主义§!思潮正在被政府镇压。"
+ promoted_militarist: "军国主义受鼓励"
+ promoted_militarist_desc: "§H军国主义§!思潮得到了政府的鼓励。"
+ suppressed_pacifist: "道德主义受镇压"
+ suppressed_pacifist_desc: "§H道德主义§!思潮正在被政府镇压。"
+ promoted_pacifist: "道德主义受鼓励"
+ promoted_pacifist_desc: "§H道德主义§!思潮得到了政府的鼓励。"
+
+ edict_expel_ethic_authoritarian: "驱逐：$ethic_authoritarian$"
+ edict_expel_ethic_authoritarian_desc: ""
+ edict_expel_ethic_egalitarian: "驱逐：$ethic_egalitarian$"
+ edict_expel_ethic_egalitarian_desc: ""
+ edict_expel_ethic_xenophobe: "驱逐：$ethic_xenophobe$"
+ edict_expel_ethic_xenophobe_desc: ""
+ edict_expel_ethic_xenophile: "驱逐：$ethic_xenophile$"
+ edict_expel_ethic_xenophile_desc: ""
+ edict_expel_ethic_militarist: "驱逐：$ethic_militarist$"
+ edict_expel_ethic_militarist_desc: ""
+ edict_expel_ethic_pacifist: "驱逐：$ethic_pacifist$"
+ edict_expel_ethic_pacifist_desc: ""
+ edict_expel_ethic_spiritualist: "驱逐：$ethic_spiritualist$"
+ edict_expel_ethic_spiritualist_desc: ""
+ edict_expel_ethic_materialist: "驱逐：$ethic_materialist$"
+ edict_expel_ethic_materialist_desc: ""
+ edict_expel_ethic_socialism: "驱逐：$ethic_socialism$"
+ edict_expel_ethic_socialism_desc: ""
+ edict_expel_ethic_capitalism: "驱逐：$ethic_capitalism$"
+ edict_expel_ethic_capitalism_desc: ""
+ 
+ expel_ethic_custom_tooltip: "将这一思潮从我国的政治博弈中§R驱逐§!，这会在一段时间内极大地激怒提倡这个思潮的派系。"
+ 
+ spiritualist_unrest: "不满（趋向§H教权主义§!）"
+ spiritualist_unrest_desc: "该殖民地的§R不满§!使当地居民开始信奉能够为内心带来安宁的宗教。"
+ materialist_unrest: "不满（趋向§H机械主义§!）"
+ materialist_unrest_desc: "该殖民地的§R不满§!使当地居民开始追求更为高效的技术以自保。"
+ xenophobe_unrest: "不满（趋向§H排外主义§!）"
+ xenophobe_unrest_desc: "该殖民地的§R不满§!使当地居民开始对外来文化产生厌恶。"
+ xenophile_unrest: "不满（趋向§H崇外主义§!）"
+ xenophile_unrest_desc: "该殖民地的§R不满§!使当地居民开始崇尚更好的外星文化。"
+ pacifist_unrest: "不满（趋向§H道德主义§!）"
+ pacifist_unrest_desc: "该殖民地的§R不满§!使当地居民开始呼吁当地其他政治势力停止冲突。"
+ militarist_unrest: "不满（趋向§H军国主义§!）"
+ militarist_unrest_desc: "该殖民地的§R不满§!使当地居民开始建议以军事化手段来处理动荡的局势。"
+ authoritarian_unrest: "不满（趋向§H权威主义§!）"
+ authoritarian_unrest_desc: "该殖民地的§R不满§!使当地居民开始依赖权威组织的强硬管理。"
+ egalitarian_unrest: "不满（趋向§H自由主义§!）"
+ egalitarian_unrest_desc: "该殖民地的§R不满§!使当地居民开始自发的进行自我组织。"
+ capitalism_unrest: "不满（趋向§H资本主义§!）"
+ capitalism_unrest_desc: "该殖民地的§R不满§!使当地居民开始反对政府对居民经济生活的干预。"
+ socialism_unrest: "不满（趋向§H社会主义§!）"
+ socialism_unrest_desc: "该殖民地的§R不满§!使当地居民开始组织合作化生产管理。"
+ 
+ mod_pop_ethic_pacifist_attraction_mult: "道德主义思潮吸引力"
+ mod_pop_ethic_militarist_attraction_mult: "军国主义思潮吸引力"
+ mod_pop_ethic_materialist_attraction_mult: "机械主义思潮吸引力"
+ mod_pop_ethic_spiritualist_attraction_mult: "教权主义思潮吸引力"
+ mod_pop_ethic_xenophile_attraction_mult: "崇外主义思潮吸引力"
+ mod_pop_ethic_xenophobe_attraction_mult: "排外主义思潮吸引力"
+ mod_pop_ethic_egalitarian_attraction_mult: "自由主义思潮吸引力"
+ mod_pop_ethic_authoritarian_attraction_mult: "权威主义思潮吸引力"
+ mod_pop_ethic_capitalism_attraction_mult: "资本主义思潮吸引力"
+ mod_pop_ethic_socialism_attraction_mult: "社会主义思潮吸引力"
+
+ st_is_spiritualist_any: "是一定程度的§Y$ethic_fanatic_spiritualist$§!"
+ st_is_materialist_any: "是一定程度的§Y$ethic_fanatic_materialist$§!"
+ st_is_authoritarian_any: "是一定程度的§Y$ethic_fanatic_authoritarian$§!"
+ st_is_egalitarian_any: "是一定程度的§Y$ethic_fanatic_egalitarian$§!"
+ st_is_xenophobe_any: "是一定程度的§Y$ethic_fanatic_xenophobe$§!"
+ st_is_xenophile_any: "是一定程度的§Y$ethic_fanatic_xenophile$§!"
+ st_is_militarist_any: "是一定程度的§Y$ethic_fanatic_militarist$§!"
+ st_is_pacifist_any: "是一定程度的§Y$ethic_fanatic_pacifist$§!"
+ st_is_socialism_any: "是一定程度的§Y$ethic_fanatic_socialism$§!"
+ st_is_capitalism_any: "是一定程度的§Y$ethic_fanatic_capitalism$§!"
+
+ civic_tooltip_spiritualist: "是一定程度的§Y$ethic_fanatic_spiritualist$§!"
+ civic_tooltip_spiritualist_only: "是§Y$ethic_spiritualist$§!"
+ civic_tooltip_spiritualist_fanatic: "是§Y$ethic_fanatic_spiritualist$§!"
+ civic_tooltip_materialist: "是一定程度的§Y$ethic_fanatic_materialist$§!"
+ civic_tooltip_materialist_only: "是§Y$ethic_materialist$§!"
+ civic_tooltip_materialist_fanatic: "是§Y$ethic_fanatic_materialist$§!"
+ civic_tooltip_authoritarian: "是一定程度的§Y$ethic_fanatic_authoritarian$§!"
+ civic_tooltip_authoritarian_only: "是§Y$ethic_authoritarian$§!"
+ civic_tooltip_authoritarian_fanatic: "是§Y$ethic_fanatic_authoritarian$§!"
+ civic_tooltip_egalitarian: "是一定程度的§Y$ethic_fanatic_egalitarian$§!"
+ civic_tooltip_egalitarian_only: "是§Y$ethic_egalitarian$§!"
+ civic_tooltip_egalitarian_fanatic: "是§Y$ethic_fanatic_egalitarian$§!"
+ civic_tooltip_xenophobe: "是一定程度的§Y$ethic_fanatic_xenophobe$§!"
+ civic_tooltip_xenophobe_only: "是§Y$ethic_xenophobe$§!"
+ civic_tooltip_xenophobe_fanatic: "是§Y$ethic_fanatic_xenophobe$§!"
+ civic_tooltip_xenophile: "是一定程度的§Y$ethic_fanatic_xenophile$§!"
+ civic_tooltip_xenophile_only: "是§Y$ethic_xenophile$§!"
+ civic_tooltip_xenophile_fanatic: "是§Y$ethic_fanatic_xenophile$§!"
+ civic_tooltip_militarist: "是一定程度的§Y$ethic_fanatic_militarist$§!"
+ civic_tooltip_militarist_only: "是§Y$ethic_militarist$§!"
+ civic_tooltip_militarist_fanatic: "是§Y$ethic_fanatic_militarist$§!"
+ civic_tooltip_pacifist: "是一定程度的§Y$ethic_fanatic_pacifist$§!"
+ civic_tooltip_pacifist_only: "是§Y$ethic_pacifist$§!"
+ civic_tooltip_pacifist_fanatic: "是§Y$ethic_fanatic_pacifist$§!"
+ civic_tooltip_socialism: "是一定程度的§Y$ethic_fanatic_socialism$§!"
+ civic_tooltip_socialism_only: "是§Y$ethic_socialism$§!"
+ civic_tooltip_socialism_fanatic: "是§Y$ethic_fanatic_socialism$§!"
+ civic_tooltip_capitalism: "是一定程度的§Y$ethic_fanatic_capitalism$§!"
+ civic_tooltip_capitalism_only: "是§Y$ethic_capitalism$§!"
+ civic_tooltip_capitalism_fanatic: "是§Y$ethic_fanatic_capitalism$§!"
+
+ civic_tooltip_spiritualist_or_pacifist: "一定程度上偏向§Y$ethic_fanatic_spiritualist$§!或者§Y$ethic_fanatic_pacifist$§!"
+ civic_tooltip_materialist_or_egalitarian: "一定程度上偏向§Y$ethic_fanatic_materialist$§!或者§Y$ethic_fanatic_egalitarian$§!"
+
+ ETHIC_CAPITALISM_UNITY: "§E首都建筑额外产出§Y能量币§!§!"
+ ETHIC_SOCIALISM_UNITY: "§E首都建筑额外产出§Y凝聚力§!§!"
+ 
+###############
+#  观测站思潮事件
+###############
+
+ observation.0002.name: "[From.GetSpeciesAdj]社会转变"
+ observation.0002.start.desc: "我们的特工在[From.Capital.GetName]上及其环绕轨道的秘密行动取得了成功。他们的努力改变了[From.GetName]的社会价值观，向我们喜闻乐见的方向。"
+ observation.0002.desc: "在我们的推动下，[From.GetSpeciesNamePlural]的商业开始繁荣，他们也意识到了个人价值的重要性。"
+ observation.0002.a: "总有一天他们会感谢我们的。"
+ observation.1002.desc: "我们欣喜地看到[From.GetSpeciesNamePlural]的社会越发的团结，互助精神与劳动精神感染了他们之中的每一个人。"
+ 
+ observation.2041.desc: "我们的顾问报告，[From.GetName]上的原住民不仅对我们的科技着迷，还效仿我们的生活方式。\n\n受到我们艺术和文化启发，[From.Owner.GetSpeciesName]社会似乎兴起了一种新的民主主义。自从我们到来后，他们的合作意识大大增加了。"
+ observation.2061.desc: "无政府主义在[From.GetName]上横行，我们的顾问很难给[From.Owner.GetSpeciesNamePlural]教授现代科学。他们所谓的科学家都把其研究方向拉向眼下一时兴起的地方，罔顾公共利益。\n\n我们的启蒙使命仍在继续，原住民表现出误入社会主义的歧途，这需要的时间比我们预期要长。"
+ observation.2039.desc: "我们的顾问报告称，[From.GetName]的原住民不仅对我们的科技着迷，甚至在模仿我们的发展方式。我们成为了极佳的榜样，教会他们要凝聚在强者的周围。[From.Owner.GetSpeciesNamePlural]现在意识到，这是让自己的文明变得伟大的必由之路。"
+ observation.3141.desc: "我们小心翼翼地将[From.GetSpeciesNamePlural]推向了更民主的思想，而在我们到达之前，他们的世界还是原始的精英独裁型统治盛行。他们渐渐意识到了民主政治的重要性。"
+
+ preftl_operation.1016.capit: "我们的特工运用丰富的经济学理论在[from.target.capital_scope.GetName]上建立了一个[root.GetAdj]§Y资本主义§!的超级企业。他们计划将许多关键的社会部门收购，把[from.target.GetSpeciesNamePlural]的政府要员绑上我们的战车。资本的运作将深刻改变社会秩序，无论结果如何，[from.target.capital_scope.GetName]都将成为我们优秀的市场。" # post-industrial societies only
+ preftl_operation.1016.egali: "我们的特工与当地知识分子接触，启发他们思考社会契约与人格价值之间的关系。尽管[from.target.GetSpeciesAdj]对政治的理解仍停留在启蒙阶段，但我们已经促动了一些在当地人中进一步讨论的活动。[from.GetName]行动已经结束，我们会将自主权留给当地的支持者，让他们自行寻找通向§Y自由王国§!的道路。" # pre-industrial societies only
+ preftl_operation.1016.socia: "我们的特工广泛深入基层，与当地社群交流关于劳动和公平的事宜。尽管[from.target.GetSpeciesAdj]对政治的理解仍停留在启蒙阶段，但我们已经促动了一些在当地人中进一步讨论的活动。[from.GetName]行动已经结束，我们会密切关注他们的进一步发展，直到他们找到通向§Y共产主义§!的道路。" # pre-industrial societies only
+
+ preftl_operation.1016.capit.desc: "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.capit$"
+ preftl_operation.1016.socia.desc: "$preftl_operation.1016.intro$\n\n$preftl_operation.1016.socia$"
+ preftl_operation.1017.capit.desc: "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.capit$"
+ preftl_operation.1017.socia.desc: "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1016.socia$"
+ preftl_operation.1018.capit.desc: "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.capit$"
+ preftl_operation.1018.socia.desc: "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1016.socia$"
+
+ preftl_operation.1019.capit: "我们的特工运用丰富的经济学理论在[from.target.capital_scope.GetName]上建立了一个[root.GetAdj]§Y资本主义§!的超级企业。他们收购了许多机构，将[from.target.GetSpeciesNamePlural]的政府要员绑上了我们的战车。资本的运作将深刻改变社会秩序，无论结果如何，[from.target.capital_scope.GetName]都将成为我们优秀的市场。" # post-industrial societies only
+ preftl_operation.1019.egali: "我们的特工与当地知识分子接触，启发他们思考社会契约与人格价值之间的关系。[from.target.GetSpeciesAdj]的政治科学已经趋于成熟，但我们还是促动了一些运动，以推动更具包容性的辩论和§Y促进自由§!的政策。" # post-industrial societies only
+ preftl_operation.1019.socia: "我们的特工广泛深入基层，与当地社群交流关于劳动和公平的事宜。[from.target.GetSpeciesAdj]的政治科学已经趋于成熟，但我们还是促动了一些运动，以推动[from.target.GetSpeciesAdj]的§Y社会主义§!事业更进一步。" # pre-industrial societies only
+
+ preftl_operation.1019.capit.desc: "$preftl_operation.1016.intro$\n\n$preftl_operation.1019.capit$"
+ preftl_operation.1019.socia.desc: "$preftl_operation.1016.intro$\n\n$preftl_operation.1019.socia$"
+ preftl_operation.1020.capit.desc: "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1019.capit$"
+ preftl_operation.1020.socia.desc: "$preftl_operation.1016.intro.good$\n\n$preftl_operation.1019.socia$"
+ preftl_operation.1021.capit.desc: "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1019.capit$"
+ preftl_operation.1021.socia.desc: "$preftl_operation.1016.intro.poor$\n\n$preftl_operation.1019.socia$"
+
+
+###############
+#  星球不满事件
+###############
+
+ unrest.115.name: "$unrest_title$宗教传播"
+ unrest.115.desc: "我们收到报告，§Y[Root.GetName]§!在历经一段时期的社会动乱后，似乎因为对境况的不确定，民众的宗教活动活动开始大大增加。临时祭坛纷纷搭建，人们通过共同的信仰形成新的社会纽带。"
+
+ unrest.120.name: "$unrest_title$可靠权威"
+ unrest.120.desc: "§Y[Root.GetName]§!的骚乱引发了新的政治变动：民粹主义铁腕人士开始走上舞台，他们不惜以自由为代价换取社会的秩序。"
+
+ unrest.125.name: "$unrest_title$异族仇恨"
+ unrest.125.desc: "随着§Y[Root.GetName]§!的社会秩序不断崩塌，[Root.Owner.GetName]的外来人口发现自己无意间成为了殖民地中与日俱增的仇恨的目标 。"
+
+ unrest.130.name: "$unrest_title$束手无策"
+ unrest.130.desc: "由于§Y[Root.GetName]§!当地的精神领袖们根本无法控制殖民地上动乱的蔓延，人们开始否定旧日的传统，疯狂追求物质生活的革新。"
+
+ unrest.135.name: "$unrest_title$崇尚外星"
+ unrest.135.desc: "§Y[Root.GetName]§!上出现了愈演愈烈的叛乱，该星球的公民们认为国内的思想已经无法忍受。他们迫切的希望能够生活在他们心目中美好的外星社会。"
+
+ unrest.140.name: "$unrest_title$自由思想"
+ unrest.140.desc: "§Y[Root.GetName]§!的自由思想如野火般传播开来，该星球的居民开始反对政府的介入，转而实行自我管理和自我组织。"
+
+ unrest.145.name: "$unrest_title$和平精神"
+ unrest.145.desc: "事实证明，对§Y[Root.GetName]§!上叛乱的干预收效甚微。当地居民之间开始流传一种非暴力不合作的思想，他们组织起来以和平示威的方式呼吁各方保持冷静。"
+
+ unrest.150.name: "$unrest_title$军事激进"
+ unrest.150.desc: "由于§Y[Root.GetName]§!上持续不断的动乱，民众强烈要求军方在他们的母星以及整个[Root.Owner.GetName]之内维持治安。"
+
+ unrest.5000.name: "$unrest_title$团结互助"
+ unrest.5000.desc: "由于§Y[Root.GetName]§!的社会断层不断扩大，在此剧变的刺激之下，当地居民在人人平等的理念下团结一致。"
+
+ unrest.6000.name: "$unrest_title$市场改革"
+ unrest.6000.desc: "§Y[Root.GetName]§!上的动乱导致了经济调节失控，企业家们呼吁政府放松对市场的管控。"
+ 
+ unrest.168.desc: "您好，[Root.GetSpeciesName]。我们是来自[old_owner.GetName]的前奴隶，现在的自由战士，我们长久以来在[old_owner.GetRulerTitle][old_owner.GetRulerName]的压迫下饱受欺凌。我们久仰您的社会主义准则，正如我们国内称之为“[new_owner.GetSpeciesAdj]之道”，并分享你们的价值观。而今我们已经独立，并愿意成为您国家的一部分，不知您意下如何？"
+ nomad.21.d.response:1 "他们是一群崇尚精神上的自由的人，至于能否和你那派人协调一致，就要看你的判断了。"

@@ -1,0 +1,22 @@
+
+# 能建造私人殖民船
+# root: country
+colony_ship_rushed = {
+	OR = {
+		has_non_swapped_tradition = tr_prosperity_trans_stellar_corporations
+		has_non_swapped_tradition = tr_prosperity_interstellar_franchising
+		has_valid_civic = civic_coalition_government
+	}
+}
+
+#This = country, suject
+#Root = country, overlord
+#From = target solar system
+# 附庸可以殖民
+subject_can_colonize = {
+	OR = {
+		from = { is_within_borders_of = prev }
+		root = { has_valid_civic = civic_feudal_realm }
+		root = { has_valid_civic = civic_coalition_government }
+	}
+}

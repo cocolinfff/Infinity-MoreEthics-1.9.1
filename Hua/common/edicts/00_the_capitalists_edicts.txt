@@ -27,10 +27,9 @@ extension_of_working_hours_act = {
 
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}
@@ -81,10 +80,9 @@ free_trade_act = {
 	}
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}
@@ -134,10 +132,9 @@ business_competition_act = {
 	}
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}
@@ -188,10 +185,9 @@ the_flexible_seniority_act = {
 	}
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}
@@ -240,10 +236,9 @@ indefinite_patent_act = {
 	}
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}
@@ -294,10 +289,9 @@ blessings = {
 	}
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}
@@ -341,10 +335,9 @@ consumerist_propaganda = {
 	}
 	potential = {
 		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
+			OR = {
+				has_ethic = ethic_capitalism
+				has_ethic = ethic_fanatic_capitalism
 			}
 		}
 	}

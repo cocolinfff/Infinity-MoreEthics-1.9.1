@@ -15,7 +15,10 @@ country_edict = {
 	influence_cost = 1
 	
 	potential = {
-		has_valid_civic = civic_shared_burden
+		OR = {
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_socialistic
+		}
 		OR = {
 		    is_at_war = yes
 			has_policy_flag = continuous_revolution
@@ -42,7 +45,10 @@ country_edict = {
 	influence_cost = 1
 	
 	potential = {
-		has_valid_civic = civic_shared_burden
+		OR = {
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_socialistic
+		}
 	}
 	
 	ai_weight = {
@@ -64,7 +70,10 @@ country_edict = {
 	influence_cost = 1
 	
 	potential = {
-		has_valid_civic = civic_shared_burden
+		OR = {
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_socialistic
+		}
 	}
 	
 	ai_weight = {
@@ -85,7 +94,10 @@ country_edict = {
 	influence_cost = 1
 	
 	potential = {
-		has_valid_civic = civic_shared_burden
+		OR = {
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_socialistic
+		}
 	}
 	
 	ai_weight = {
@@ -107,7 +119,10 @@ country_edict = {
 	influence_cost = 1
 	
 	potential = {
-		has_valid_civic = civic_shared_burden
+		OR = {
+			has_valid_civic = civic_shared_burden
+			has_valid_civic = civic_socialistic
+		}
 	}
 	
 	ai_weight = {
@@ -133,7 +148,7 @@ country_edict = {
 		has_technology = tech_ascension_theory
 		OR = {
 			has_valid_civic = civic_shared_burden
-			has_valid_civic = civic_people_of_the_iron_curtain
+			has_valid_civic = civic_socialistic
 		}
 		NOT ={ has_policy_flag = reform_and_opening_up }
 	}

@@ -1,0 +1,44 @@
+    NGameplay = {
+	    ETHOS_MAX_POINTS = 5                            # 思潮点数
+        POLICY_YEARS = 5                                # 政策修改冷却
+		LEADER_CAPACITY_BASE = 10 		                # 基础领袖上限
+	
+		POP_ETHOS_LOWER_ETHIC_THRESHOLD				= 0.9	# 思潮吸引力低于这个百分比则人口思潮开始偏离
+		POP_ETHOS_UPPER_ETHIC_THRESHOLD				= 1.25	# 思潮吸引力高于这个百分比则人口思潮开始汇聚
+		POP_MIN_ETHIC_RELATIVE_ATTRACTION			= 0.2	# 如果相对影响力低于此，则不会偏离这个规范
+		POP_ETHOS_DIVERGENCE_INTERVAL				= 360	# 人口变更思潮的最短时间
+		POP_ETHOS_DIVERGENCE_RATE_MULT				= 0.15	# 人口每年改变思潮的几率
+		POP_DISENFRANCHISE_EFFECT 					= 0.25 	# 一个被剥夺投票权的人口对派系支持的贡献有多大（其中人口的选票=1）
+		POP_CHANGE_FACTION_CHANCE					= 0.05	# 每个月一个人口有X次机会改变阵营，但只有当人口想要的时候
+		POP_CURRENT_FACTION_WEIGHT					= 1.25	# 当前派系的权重乘以人口的权重
+		POP_CURRENT_FACTION_LAST_MEMBER_WEIGHT		= 100.0	# 当前派系的权重乘以当人口是最后一个派系成员时的权重
+		POP_FACTION_HAPPINESS_FOR_CONTENT			= 0.4	# 低于这个等级的幸福度，一个派系将开始制造麻烦
+		POP_FACTION_MIN_HAPPINESS_FOR_INFLUENCE		= 0.6	# 高于这个幸福度水平的派系提供+影响力
+		POP_FACTION_INFLUENCE_SCALING				= 3		# 获得100%幸福度和100%支持的派系的基础影响力
+		POP_FACTION_SIZE_ATTRACTION					= 1		# 当前成员规模对吸引力的影响有多大（数字越大，吸引力越低）
+		POP_FACTION_MIN_POTENTIAL_MEMBERS			= 1 	# 如果一个派系的潜在成员小于这个数字，那就不生成
+		POP_FACTION_CREATION_COOLDOWN				= 60 	# 在创建一个派系后等待这么多天以创建另一个派系（不适用于隐藏派系）
+    }
+	
+	NGameplay = {
+		NAVAL_CAPACITY_MAX = 99999						# 最大舰队容量
+		NAVAL_CAPACITY_BASE	= 20						# 基础舰队容量
+	}
+	
+	NPop = {
+		NEW_POP_HOMEWORLD_MULT = 8.0	                # 人口因为生长在自己的母星上而增加的权重
+		NEW_POP_SPECIES_DIV = 0.01	                    # 这一数值越高，就会有越多的在星球上不占主流的物种生长
+		NEW_POP_SAME_SPECIES_WEIGHT = 4.0	            # 这一数值越高，就会有越多新人口将被相同或亚种人口的数量加权
+		NEW_POP_EXACT_SPECIES_WEIGHT = 2.0	            # 这一数值越高，新的人口的数量就会被相同物种的人口的数量所加权
+		
+		BASE_POP_GROWTH = 3							    # 基础人口增长
+		LOGISTIC_POP_GROWTH_R = 0.25					# 星球每1人口额外增加多少人口增长
+		LOGISTIC_POP_GROWTH_FLOOR = 0.01				# 人口增长不会降低增长率到低于这个百分比。
+		LOGISTIC_POP_GROWTH_CEILING = 50.00				# 人口增长不会提高增长率超过这个百分比。
+		LOGISTIC_POP_GROWTH_MIN_POPS = 1				# 正在殖民的星球视为有这么多人口，以防止人口不增长
+		LOGISTIC_POP_GROWTH_LOWER_THRESHOLD	= 0.5	    # 如果当前人口的数量低于此承载力的百分比，则忽略对人口的惩罚
+		MAX_CARRYING_CAPACITY = 50000	                # 行星承载能力上限(所以当他们创造一个带有无限区域的星球时，mod可以访问这个值)
+		MAX_NEW_COLONIES_SCALE = 2 					    # 在新旧殖民地的比例下，迁移没有进一步扩大的趋势
+		REQUIRED_POP_GROWTH = 100						# 人口增长基础进度条
+	}
+

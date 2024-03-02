@@ -81,6 +81,11 @@ civic_beacon_of_liberty = {
 			NOT = { value = auth_imperial }
 		}
 		ethics = {
+			OR = {
+				text = civic_tooltip_capitalism
+				value = ethic_capitalism
+				value = ethic_fanatic_capitalism
+			}
 			NOR = {
 				text = civic_tooltip_not_pacifist
 				value = ethic_pacifist
@@ -236,7 +241,7 @@ civic_environmentalist = {
 	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
 	random_weight = { base = 1 }
 	modifier = {
-		pop_consumer_goods_mult = -0.15
+		pop_consumer_goods_mult = -0.2
 	}
 }
 
@@ -352,7 +357,11 @@ civic_corporate_dominion = {
 			value = auth_oligarchic
 		}
 		ethics = {
-			value = ethic_authoritarian
+			OR = {
+				text = civic_tooltip_capitalism
+				value = ethic_capitalism
+				value = ethic_fanatic_capitalism
+			}
 		}
 	}
 	random_weight = { base = 3 }
@@ -401,6 +410,15 @@ civic_shadow_council = {
 civic_mining_guilds = {
 	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
 	random_weight = { base = 1 }
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_capitalism
+				value = ethic_capitalism
+				value = ethic_fanatic_capitalism
+			}
+		}
+	}
 	modifier = {
 		country_resource_minerals_mult = 0.10
 	}

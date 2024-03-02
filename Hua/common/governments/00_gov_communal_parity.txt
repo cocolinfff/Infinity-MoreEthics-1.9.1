@@ -1,3 +1,92 @@
+# 家长制独裁
+gov_parental_dictatorship = {
+	ruler_title = RT_BIG_BROTHER
+	ruler_title_female = RT_BIG_SISTHER
+	heir_title = RT_FIRST_SECRETARY
+	heir_title_female = RT_FIRST_SECRETARY
+	use_regnal_names = yes
+	dynastic_last_names = yes
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 100
+			leader_class = governor
+		}
+	}
+	possible = {
+		OR = {
+			has_authority = auth_dictatorial
+			has_authority = auth_imperial
+		}
+		has_ethic = ethic_fanatic_socialism
+		is_authoritarian = yes
+	}
+	weight = {
+		base = 5
+		modifier = {
+			factor = 20
+			has_authority = auth_imperial
+		}
+	}
+}
+
+# 人民专政
+gov_dictatorship_of_the_people = {
+	ruler_title = RT_GENSEK
+	ruler_title_female = RT_GENSEK
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 100
+			leader_class = governor
+		}
+	}
+	possible = {
+		has_authority = auth_dictatorial
+		has_ethic = ethic_fanatic_socialism
+		is_authoritarian = no
+	}
+	weight = {
+		base = 100
+	}
+}
+
+# 官僚委员会
+gov_bur_collectivism = {
+	ruler_title = RT_GENSEK
+	ruler_title_female = RT_GENSEK
+	should_force_rename = yes
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 100
+			leader_class = governor
+		}
+	}
+	possible = {
+		has_authority = auth_oligarchic
+		has_ethic = ethic_fanatic_socialism
+		is_authoritarian = yes
+	}
+	weight = {
+		base = 100
+	}
+}
+
 # 人民委员会
 gov_peoples_commissariat = {
 	ruler_title = RT_LABOUR
@@ -16,27 +105,27 @@ gov_peoples_commissariat = {
 
 	possible = {
 		has_authority = auth_oligarchic
-		has_ethic = ethic_egalitarian
+		has_ethic = ethic_fanatic_socialism
+		is_authoritarian = no
 	}
 	
     should_force_rename = yes
 
 	weight = {
-		base = 999999
+		base = 100
 	}
 }
 
-#民主集中制
+# 民主集中制
 gov_collective_democracy = {
 	ruler_title = RT_PEOPLES_REPRESENTATIVE
 	ruler_title_female = RT_PEOPLES_REPRESENTATIVE
 	possible = {
-		has_authority = auth_democratic
-		has_valid_civic = civic_socialistic
+		has_ethic = ethic_fanatic_socialism
 	}
 	should_force_rename = yes
 	weight = {
-		base = 999999
+		base = 100
 	}
 }
 
@@ -52,6 +141,62 @@ gov_communal_parity = {
 	
     should_force_rename = yes
 
+	weight = {
+		base = 999999
+	}
+}
+
+###############
+# 联合政府
+###############
+#苏维埃联盟（社会主义）
+gov_soviet_union = {
+	ruler_title = RT_FIRST_SECRETARY
+	ruler_title_female = RT_FIRST_SECRETARY
+	possible = {
+		NOT = { has_authority = auth_imperial }
+		has_valid_civic = civic_coalition_government
+		OR = {
+		    has_ethic = ethic_fanatic_socialism
+			has_valid_civic = civic_socialistic
+		}
+	}
+	weight = {
+		base = 999999
+	}
+}
+
+#国家联合体（非君主制）
+gov_commonwealth_of_states = {
+	ruler_title = RT_SECRETARY
+	ruler_title_female = RT_SECRETARY
+	use_regnal_names = no
+	should_force_rename = no
+	possible = {
+		NOT = { has_authority = auth_imperial }
+		has_valid_civic = civic_coalition_government
+		NOR = {
+		    has_ethic = ethic_fanatic_socialism
+			has_valid_civic = civic_socialistic
+		}
+	}
+	weight = {
+		base = 999999
+	}
+}
+
+#共主邦联（君主制）
+gov_united_empire = {
+	ruler_title = RT_EMPEROR
+	ruler_title_female = RT_EMPRESS
+	heir_title = RT_ELECTOR
+	heir_title_female = RT_FEMALE_ELECTOR
+	use_regnal_names = yes
+	dynastic_last_names = yes
+	possible = {
+		has_authority = auth_imperial
+		has_valid_civic = civic_coalition_government
+	}
 	weight = {
 		base = 999999
 	}

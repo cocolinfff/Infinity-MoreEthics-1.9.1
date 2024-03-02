@@ -24,6 +24,42 @@ empire_name_parts_list = {
 	}
 }
 
+# 苏维埃联盟
+empire_name_parts_list = {
+	key = "soviet_union"
+	parts = {
+		Awami_League = 6
+		Soviet_Union = 6
+		Socialist_Republics_Union = 6
+		Workers_Group = 6
+		Union = 4
+	}
+}
+
+# 国家联合体
+empire_name_parts_list = {
+	key = "commonwealth_of_states"
+	parts = {
+		Federal = 6
+		United_Nations = 6
+		Interstellar_Alliance = 6
+		United_States = 6
+		Star_League = 6
+		Union = 4
+	}
+}
+
+# 联合帝国
+empire_name_parts_list = {
+	key = "united_empire"
+	parts = {
+		United_Kingdom = 6
+		Federal_Empire = 6
+		Joint_Territory = 6
+		Empire = 4
+	}
+}
+
 
 # 人民委员会1
 empire_name_format = {
@@ -34,6 +70,9 @@ empire_name_format = {
 			OR = {
 				has_government = "gov_peoples_commissariat"
 				has_government = "gov_collective_democracy"
+				has_government = "gov_parental_dictatorship"
+				has_government = "gov_dictatorship_of_the_people"
+				has_government = "gov_bur_collectivism"
 			}
 			is_pirate = no
 			is_primitive = yes
@@ -56,6 +95,9 @@ empire_name_format = {
 			OR = {
 				has_government = "gov_peoples_commissariat"
 				has_government = "gov_collective_democracy"
+				has_government = "gov_parental_dictatorship"
+				has_government = "gov_dictatorship_of_the_people"
+				has_government = "gov_bur_collectivism"
 			}
 			is_pirate = no
 			is_primitive = no
@@ -105,5 +147,124 @@ empire_name_format = {
 	format = "format.coa.4"
 	noun = "[This.GetSpeciesName]"
 	prefix_format = "[This.Capital.GetName]<communal_parity>"
+	# Empire of Earth
+}
+
+
+
+# 苏维埃联盟1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_soviet_union"
+			is_pirate = no
+			is_primitive = yes
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.5"
+	 
+	noun = format.species
+	prefix_format = "[This.Capital.GetName]<communal_parity>"
+	# Empire of Earth
+}
+
+# 苏维埃联盟2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_soviet_union"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.6"
+	 
+	noun = format.species
+	prefix_format = "[This.Capital.GetName]<communal_parity>"
+	# Empire of Earth
+}
+
+# 国家联合体1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_commonwealth_of_states"
+			is_pirate = no
+			is_primitive = yes
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.7"
+	noun = format.species
+	prefix_format = "[This.Capital.GetName]<commonwealth_of_states>"
+	# Empire of Earth
+}
+
+# 国家联合体2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_commonwealth_of_states"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.8"
+	noun = format.species
+	prefix_format = "[This.Capital.GetName]<commonwealth_of_states>"
+	# Empire of Earth
+}
+
+# 联合帝国1
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_united_empire"
+			is_pirate = no
+			is_primitive = yes
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.9"
+	noun = format.species
+	prefix_format = "[This.Capital.GetName]<united_empire>"
+	# Empire of Earth
+}
+
+# 联合帝国2
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 100000
+			has_government = "gov_united_empire"
+			is_pirate = no
+			is_primitive = no
+			NOT = { is_country_type = fallen_empire }
+			NOT = { is_country_type = awakened_fallen_empire }
+		}
+	}
+	format = "format.coa.10"
+	 
+	noun = format.species
+	prefix_format = "[This.Capital.GetName]<united_empire>"
 	# Empire of Earth
 }
